@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1368907480 source:/home/justin/Documents/GameProjects/MapOctree/main.cpp
+	"MapOctree.h"
+	<iostream>
+
+1368905249 /home/justin/Documents/GameProjects/MapOctree/Node.h
+
+1368905340 source:/home/justin/Documents/GameProjects/MapOctree/Node.cpp
+	"Node.h"
+
+1368909447 source:/home/justin/Documents/GameProjects/MapOctree/MapOctree.cpp
+	"MapOctree.h"
+
+1368909447 /home/justin/Documents/GameProjects/MapOctree/MapOctree.h
+

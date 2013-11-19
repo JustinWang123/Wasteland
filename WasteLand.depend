@@ -1,0 +1,3651 @@
+# depslib dependency file v1.0
+1364197657 source:/home/justin/GameProjects/WasteLand/AnimalBrain.cpp
+	"AnimalBrain.h"
+	<iostream>
+	"CharacterInstance.h"
+	"CommandWander.h"
+
+1365623949 /home/justin/GameProjects/WasteLand/AnimalBrain.h
+	"CompoundCharacterCommand.h"
+
+1364845787 /home/justin/GameProjects/WasteLand/CompoundCharacterCommand.h
+	"CharacterCommand.h"
+	<list>
+
+1365624097 /home/justin/GameProjects/WasteLand/CharacterCommand.h
+	"IrrWrapper.h"
+
+1364936302 /home/justin/GameProjects/WasteLand/IrrWrapper.h
+	<string>
+	<sstream>
+	<irrlicht.h>
+	"MyEventReceiver.h"
+
+1364105999 /usr/local/include/irrlicht.h
+	"IrrCompileConfig.h"
+	"aabbox3d.h"
+	"CDynamicMeshBuffer.h"
+	"CIndexBuffer.h"
+	"CMeshBuffer.h"
+	"coreutil.h"
+	"CVertexBuffer.h"
+	"dimension2d.h"
+	"ECullingTypes.h"
+	"EDebugSceneTypes.h"
+	"EDriverFeatures.h"
+	"EDriverTypes.h"
+	"EGUIAlignment.h"
+	"EGUIElementTypes.h"
+	"EHardwareBufferFlags.h"
+	"EMaterialFlags.h"
+	"EMaterialTypes.h"
+	"EMeshWriterEnums.h"
+	"EMessageBoxFlags.h"
+	"ESceneNodeAnimatorTypes.h"
+	"ESceneNodeTypes.h"
+	"ETerrainElements.h"
+	"fast_atof.h"
+	"heapsort.h"
+	"IAnimatedMesh.h"
+	"IAnimatedMeshMD2.h"
+	"IAnimatedMeshMD3.h"
+	"IAnimatedMeshSceneNode.h"
+	"IAttributeExchangingObject.h"
+	"IAttributes.h"
+	"IBillboardSceneNode.h"
+	"IBillboardTextSceneNode.h"
+	"IBoneSceneNode.h"
+	"ICameraSceneNode.h"
+	"ICursorControl.h"
+	"IDummyTransformationSceneNode.h"
+	"IDynamicMeshBuffer.h"
+	"IEventReceiver.h"
+	"IFileList.h"
+	"IFileSystem.h"
+	"IGeometryCreator.h"
+	"IGPUProgrammingServices.h"
+	"IGUIButton.h"
+	"IGUICheckBox.h"
+	"IGUIColorSelectDialog.h"
+	"IGUIComboBox.h"
+	"IGUIContextMenu.h"
+	"IGUIEditBox.h"
+	"IGUIElement.h"
+	"IGUIElementFactory.h"
+	"IGUIEnvironment.h"
+	"IGUIFileOpenDialog.h"
+	"IGUIFont.h"
+	"IGUIFontBitmap.h"
+	"IGUIImage.h"
+	"IGUIInOutFader.h"
+	"IGUIListBox.h"
+	"IGUIMeshViewer.h"
+	"IGUIScrollBar.h"
+	"IGUISkin.h"
+	"IGUISpinBox.h"
+	"IGUISpriteBank.h"
+	"IGUIStaticText.h"
+	"IGUITabControl.h"
+	"IGUITable.h"
+	"IGUIToolbar.h"
+	"IGUIWindow.h"
+	"IGUITreeView.h"
+	"IImage.h"
+	"IImageLoader.h"
+	"IImageWriter.h"
+	"IIndexBuffer.h"
+	"ILightSceneNode.h"
+	"ILogger.h"
+	"IMaterialRenderer.h"
+	"IMaterialRendererServices.h"
+	"IMesh.h"
+	"IMeshBuffer.h"
+	"IMeshCache.h"
+	"IMeshLoader.h"
+	"IMeshManipulator.h"
+	"IMeshSceneNode.h"
+	"IMeshWriter.h"
+	"IColladaMeshWriter.h"
+	"IMetaTriangleSelector.h"
+	"IOSOperator.h"
+	"IParticleSystemSceneNode.h"
+	"IQ3LevelMesh.h"
+	"IQ3Shader.h"
+	"IReadFile.h"
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"IRandomizer.h"
+	"IrrlichtDevice.h"
+	"irrList.h"
+	"irrMap.h"
+	"irrMath.h"
+	"irrString.h"
+	"irrTypes.h"
+	"path.h"
+	"irrXML.h"
+	"ISceneCollisionManager.h"
+	"ISceneLoader.h"
+	"ISceneManager.h"
+	"ISceneNode.h"
+	"ISceneNodeAnimator.h"
+	"ISceneNodeAnimatorCameraFPS.h"
+	"ISceneNodeAnimatorCameraMaya.h"
+	"ISceneNodeAnimatorCollisionResponse.h"
+	"ISceneNodeAnimatorFactory.h"
+	"ISceneNodeFactory.h"
+	"ISceneUserDataSerializer.h"
+	"IShaderConstantSetCallBack.h"
+	"IShadowVolumeSceneNode.h"
+	"ISkinnedMesh.h"
+	"ITerrainSceneNode.h"
+	"ITextSceneNode.h"
+	"ITexture.h"
+	"ITimer.h"
+	"ITriangleSelector.h"
+	"IVertexBuffer.h"
+	"IVideoDriver.h"
+	"IVideoModeList.h"
+	"IVolumeLightSceneNode.h"
+	"IWriteFile.h"
+	"IXMLReader.h"
+	"IXMLWriter.h"
+	"ILightManager.h"
+	"Keycodes.h"
+	"line2d.h"
+	"line3d.h"
+	"matrix4.h"
+	"plane3d.h"
+	"position2d.h"
+	"quaternion.h"
+	"rect.h"
+	"S3DVertex.h"
+	"SAnimatedMesh.h"
+	"SceneParameters.h"
+	"SColor.h"
+	"SExposedVideoData.h"
+	"SIrrCreationParameters.h"
+	"SKeyMap.h"
+	"SLight.h"
+	"SMaterial.h"
+	"SMesh.h"
+	"SMeshBuffer.h"
+	"SMeshBufferLightMap.h"
+	"SMeshBufferTangents.h"
+	"SParticle.h"
+	"SSharedMeshBuffer.h"
+	"SSkinMeshBuffer.h"
+	"SVertexIndex.h"
+	"SViewFrustum.h"
+	"triangle3d.h"
+	"vector2d.h"
+	"vector3d.h"
+	"SIrrCreationParameters.h"
+
+1364105999 /usr/local/include/IrrCompileConfig.h
+	<stdio.h>
+	<xtl.h>
+
+1364105999 /usr/local/include/aabbox3d.h
+	"irrMath.h"
+	"plane3d.h"
+	"line3d.h"
+
+1364105999 /usr/local/include/irrMath.h
+	"IrrCompileConfig.h"
+	"irrTypes.h"
+	<math.h>
+	<float.h>
+	<stdlib.h>
+	<limits.h>
+
+1364105999 /usr/local/include/irrTypes.h
+	"IrrCompileConfig.h"
+	<wchar.h>
+	<crtdbg.h>
+	"assert.h"
+	<stdlib.h>
+	<crtdbg.h>
+
+1364105999 /usr/local/include/plane3d.h
+	"irrMath.h"
+	"vector3d.h"
+
+1364105999 /usr/local/include/vector3d.h
+	"irrMath.h"
+
+1364105999 /usr/local/include/line3d.h
+	"irrTypes.h"
+	"vector3d.h"
+
+1364105999 /usr/local/include/CDynamicMeshBuffer.h
+	"IDynamicMeshBuffer.h"
+	"CVertexBuffer.h"
+	"CIndexBuffer.h"
+
+1364105999 /usr/local/include/IDynamicMeshBuffer.h
+	"IMeshBuffer.h"
+	"IVertexBuffer.h"
+	"IIndexBuffer.h"
+
+1364105999 /usr/local/include/IMeshBuffer.h
+	"IReferenceCounted.h"
+	"SMaterial.h"
+	"aabbox3d.h"
+	"S3DVertex.h"
+	"SVertexIndex.h"
+	"EHardwareBufferFlags.h"
+	"EPrimitiveTypes.h"
+
+1364105999 /usr/local/include/IReferenceCounted.h
+	"irrTypes.h"
+
+1364105999 /usr/local/include/SMaterial.h
+	"SColor.h"
+	"matrix4.h"
+	"irrArray.h"
+	"irrMath.h"
+	"EMaterialTypes.h"
+	"EMaterialFlags.h"
+	"SMaterialLayer.h"
+
+1364105999 /usr/local/include/SColor.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1364105999 /usr/local/include/matrix4.h
+	"irrMath.h"
+	"vector3d.h"
+	"vector2d.h"
+	"plane3d.h"
+	"aabbox3d.h"
+	"rect.h"
+	"irrString.h"
+
+1364105999 /usr/local/include/vector2d.h
+	"irrMath.h"
+	"dimension2d.h"
+
+1364105999 /usr/local/include/dimension2d.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1364105999 /usr/local/include/rect.h
+	"irrTypes.h"
+	"dimension2d.h"
+	"position2d.h"
+
+1364105999 /usr/local/include/position2d.h
+	"vector2d.h"
+
+1364105999 /usr/local/include/irrString.h
+	"irrTypes.h"
+	"irrAllocator.h"
+	"irrMath.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1364105999 /usr/local/include/irrAllocator.h
+	"irrTypes.h"
+	<new>
+	<memory.h>
+
+1364105999 /usr/local/include/irrArray.h
+	"irrTypes.h"
+	"heapsort.h"
+	"irrAllocator.h"
+	"irrMath.h"
+
+1364105999 /usr/local/include/heapsort.h
+	"irrTypes.h"
+
+1364105999 /usr/local/include/EMaterialTypes.h
+
+1364105999 /usr/local/include/EMaterialFlags.h
+
+1364105999 /usr/local/include/SMaterialLayer.h
+	"matrix4.h"
+	"irrAllocator.h"
+
+1364105999 /usr/local/include/S3DVertex.h
+	"vector3d.h"
+	"vector2d.h"
+	"SColor.h"
+
+1364105999 /usr/local/include/SVertexIndex.h
+	"irrTypes.h"
+
+1364105999 /usr/local/include/EHardwareBufferFlags.h
+
+1364105999 /usr/local/include/EPrimitiveTypes.h
+
+1364105999 /usr/local/include/IVertexBuffer.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"S3DVertex.h"
+
+1364105999 /usr/local/include/IIndexBuffer.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"SVertexIndex.h"
+
+1364105999 /usr/local/include/CVertexBuffer.h
+	"IVertexBuffer.h"
+
+1364105999 /usr/local/include/CIndexBuffer.h
+	"IIndexBuffer.h"
+
+1364105999 /usr/local/include/CMeshBuffer.h
+	"irrArray.h"
+	"IMeshBuffer.h"
+
+1364105999 /usr/local/include/coreutil.h
+	"irrString.h"
+	"path.h"
+
+1364105999 /usr/local/include/path.h
+	"irrString.h"
+
+1364105999 /usr/local/include/ECullingTypes.h
+	"irrTypes.h"
+
+1364105999 /usr/local/include/EDebugSceneTypes.h
+
+1364105999 /usr/local/include/EDriverFeatures.h
+
+1364105999 /usr/local/include/EDriverTypes.h
+
+1364105999 /usr/local/include/EGUIAlignment.h
+
+1364105999 /usr/local/include/EGUIElementTypes.h
+	"irrTypes.h"
+
+1364105999 /usr/local/include/EMeshWriterEnums.h
+	"irrTypes.h"
+
+1364105999 /usr/local/include/EMessageBoxFlags.h
+
+1364105999 /usr/local/include/ESceneNodeAnimatorTypes.h
+
+1364105999 /usr/local/include/ESceneNodeTypes.h
+	"irrTypes.h"
+
+1364105999 /usr/local/include/ETerrainElements.h
+
+1364105999 /usr/local/include/fast_atof.h
+	"irrMath.h"
+	"irrString.h"
+
+1364105999 /usr/local/include/IAnimatedMesh.h
+	"aabbox3d.h"
+	"IMesh.h"
+
+1364105999 /usr/local/include/IMesh.h
+	"IReferenceCounted.h"
+	"SMaterial.h"
+	"EHardwareBufferFlags.h"
+
+1364105999 /usr/local/include/IAnimatedMeshMD2.h
+	"IAnimatedMesh.h"
+
+1364105999 /usr/local/include/IAnimatedMeshMD3.h
+	"IAnimatedMesh.h"
+	"IQ3Shader.h"
+	"quaternion.h"
+	"irrpack.h"
+	"irrunpack.h"
+
+1364105999 /usr/local/include/IQ3Shader.h
+	"irrArray.h"
+	"fast_atof.h"
+	"IFileSystem.h"
+	"IVideoDriver.h"
+	"coreutil.h"
+
+1364105999 /usr/local/include/IFileSystem.h
+	"IReferenceCounted.h"
+	"IXMLReader.h"
+	"IFileArchive.h"
+
+1364105999 /usr/local/include/IXMLReader.h
+	"IReferenceCounted.h"
+	"irrXML.h"
+
+1364105999 /usr/local/include/irrXML.h
+	<stdio.h>
+	"IrrCompileConfig.h"
+	<irrXML.h>
+	<string>
+	<irrXML.h>
+	<irrXML.h>
+	<irrXML.h>
+
+1364105999 /usr/local/include/IFileArchive.h
+	"IReadFile.h"
+	"IFileList.h"
+
+1364105999 /usr/local/include/IReadFile.h
+	"IReferenceCounted.h"
+	"coreutil.h"
+
+1364105999 /usr/local/include/IFileList.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1364105999 /usr/local/include/IVideoDriver.h
+	"rect.h"
+	"SColor.h"
+	"ITexture.h"
+	"irrArray.h"
+	"matrix4.h"
+	"plane3d.h"
+	"dimension2d.h"
+	"position2d.h"
+	"SMaterial.h"
+	"IMeshBuffer.h"
+	"triangle3d.h"
+	"EDriverTypes.h"
+	"EDriverFeatures.h"
+	"SExposedVideoData.h"
+
+1364105999 /usr/local/include/ITexture.h
+	"IReferenceCounted.h"
+	"IImage.h"
+	"dimension2d.h"
+	"EDriverTypes.h"
+	"path.h"
+	"matrix4.h"
+
+1364105999 /usr/local/include/IImage.h
+	"IReferenceCounted.h"
+	"position2d.h"
+	"rect.h"
+	"SColor.h"
+
+1364105999 /usr/local/include/triangle3d.h
+	"vector3d.h"
+	"line3d.h"
+	"plane3d.h"
+	"aabbox3d.h"
+
+1364105999 /usr/local/include/SExposedVideoData.h
+
+1364105999 /usr/local/include/quaternion.h
+	"irrTypes.h"
+	"irrMath.h"
+	"matrix4.h"
+	"vector3d.h"
+
+1364105999 /usr/local/include/irrpack.h
+
+1364105999 /usr/local/include/irrunpack.h
+
+1364105999 /usr/local/include/IAnimatedMeshSceneNode.h
+	"ISceneNode.h"
+	"IBoneSceneNode.h"
+	"IAnimatedMeshMD2.h"
+	"IAnimatedMeshMD3.h"
+
+1364105999 /usr/local/include/ISceneNode.h
+	"IAttributeExchangingObject.h"
+	"ESceneNodeTypes.h"
+	"ECullingTypes.h"
+	"EDebugSceneTypes.h"
+	"ISceneNodeAnimator.h"
+	"ITriangleSelector.h"
+	"SMaterial.h"
+	"irrString.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"irrList.h"
+	"IAttributes.h"
+
+1364105999 /usr/local/include/IAttributeExchangingObject.h
+	"IReferenceCounted.h"
+
+1364105999 /usr/local/include/ISceneNodeAnimator.h
+	"IReferenceCounted.h"
+	"vector3d.h"
+	"ESceneNodeAnimatorTypes.h"
+	"IAttributeExchangingObject.h"
+	"IEventReceiver.h"
+
+1364105999 /usr/local/include/IEventReceiver.h
+	"ILogger.h"
+	"Keycodes.h"
+	"irrString.h"
+
+1364105999 /usr/local/include/ILogger.h
+	"IReferenceCounted.h"
+
+1364105999 /usr/local/include/Keycodes.h
+
+1364105999 /usr/local/include/ITriangleSelector.h
+	"IReferenceCounted.h"
+	"triangle3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"line3d.h"
+
+1364105999 /usr/local/include/irrList.h
+	"irrTypes.h"
+	"irrAllocator.h"
+	"irrMath.h"
+
+1364105999 /usr/local/include/IAttributes.h
+	"IReferenceCounted.h"
+	"SColor.h"
+	"vector3d.h"
+	"vector2d.h"
+	"line2d.h"
+	"line3d.h"
+	"triangle3d.h"
+	"position2d.h"
+	"rect.h"
+	"dimension2d.h"
+	"matrix4.h"
+	"quaternion.h"
+	"plane3d.h"
+	"triangle3d.h"
+	"line2d.h"
+	"line3d.h"
+	"irrString.h"
+	"irrArray.h"
+	"IXMLReader.h"
+	"EAttributes.h"
+	"path.h"
+
+1364105999 /usr/local/include/line2d.h
+	"irrTypes.h"
+	"vector2d.h"
+
+1364105999 /usr/local/include/EAttributes.h
+
+1364105999 /usr/local/include/IBoneSceneNode.h
+	"ISceneNode.h"
+
+1364105999 /usr/local/include/IBillboardSceneNode.h
+	"ISceneNode.h"
+
+1364105999 /usr/local/include/IBillboardTextSceneNode.h
+	"IBillboardSceneNode.h"
+
+1364105999 /usr/local/include/ICameraSceneNode.h
+	"ISceneNode.h"
+	"IEventReceiver.h"
+
+1364105999 /usr/local/include/ICursorControl.h
+	"IReferenceCounted.h"
+	"position2d.h"
+	"rect.h"
+
+1364105999 /usr/local/include/IDummyTransformationSceneNode.h
+	"ISceneNode.h"
+
+1364105999 /usr/local/include/IGeometryCreator.h
+	"IReferenceCounted.h"
+	"IMesh.h"
+	"IImage.h"
+
+1364105999 /usr/local/include/IGPUProgrammingServices.h
+	"EShaderTypes.h"
+	"EMaterialTypes.h"
+	"EPrimitiveTypes.h"
+	"path.h"
+
+1364105999 /usr/local/include/EShaderTypes.h
+	"irrTypes.h"
+
+1364105999 /usr/local/include/IGUIButton.h
+	"IGUIElement.h"
+
+1364105999 /usr/local/include/IGUIElement.h
+	"IAttributeExchangingObject.h"
+	"irrList.h"
+	"rect.h"
+	"irrString.h"
+	"IEventReceiver.h"
+	"EGUIElementTypes.h"
+	"EGUIAlignment.h"
+	"IAttributes.h"
+
+1364105999 /usr/local/include/IGUICheckBox.h
+	"IGUIElement.h"
+
+1364105999 /usr/local/include/IGUIColorSelectDialog.h
+	"IGUIElement.h"
+
+1364105999 /usr/local/include/IGUIComboBox.h
+	"IGUIElement.h"
+
+1364105999 /usr/local/include/IGUIContextMenu.h
+	"IGUIElement.h"
+
+1364105999 /usr/local/include/IGUIEditBox.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1364105999 /usr/local/include/IGUIElementFactory.h
+	"IReferenceCounted.h"
+	"EGUIElementTypes.h"
+
+1364105999 /usr/local/include/IGUIEnvironment.h
+	"IReferenceCounted.h"
+	"IGUISkin.h"
+	"rect.h"
+	"EMessageBoxFlags.h"
+	"IEventReceiver.h"
+	"IXMLReader.h"
+	"path.h"
+
+1364105999 /usr/local/include/IGUISkin.h
+	"IAttributeExchangingObject.h"
+	"EGUIAlignment.h"
+	"SColor.h"
+	"rect.h"
+
+1364105999 /usr/local/include/IGUIFileOpenDialog.h
+	"IGUIElement.h"
+	"path.h"
+
+1364105999 /usr/local/include/IGUIFont.h
+	"IReferenceCounted.h"
+	"SColor.h"
+	"rect.h"
+	"irrString.h"
+
+1364105999 /usr/local/include/IGUIFontBitmap.h
+	"IGUIFont.h"
+
+1364105999 /usr/local/include/IGUIImage.h
+	"IGUIElement.h"
+
+1364105999 /usr/local/include/IGUIInOutFader.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1364105999 /usr/local/include/IGUIListBox.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1364105999 /usr/local/include/IGUIMeshViewer.h
+	"IGUIElement.h"
+
+1364105999 /usr/local/include/IGUIScrollBar.h
+	"IGUIElement.h"
+
+1364105999 /usr/local/include/IGUISpinBox.h
+	"IGUIElement.h"
+
+1364105999 /usr/local/include/IGUISpriteBank.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"SColor.h"
+	"rect.h"
+
+1364105999 /usr/local/include/IGUIStaticText.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1364105999 /usr/local/include/IGUITabControl.h
+	"IGUIElement.h"
+	"SColor.h"
+	"IGUISkin.h"
+
+1364105999 /usr/local/include/IGUITable.h
+	"IGUIElement.h"
+	"irrTypes.h"
+	"SColor.h"
+	"IGUISkin.h"
+
+1364105999 /usr/local/include/IGUIToolbar.h
+	"IGUIElement.h"
+
+1364105999 /usr/local/include/IGUIWindow.h
+	"IGUIElement.h"
+	"EMessageBoxFlags.h"
+
+1364105999 /usr/local/include/IGUITreeView.h
+	"IGUIElement.h"
+	"IGUIImageList.h"
+	"irrTypes.h"
+
+1364105999 /usr/local/include/IGUIImageList.h
+	"IGUIElement.h"
+	"rect.h"
+	"irrTypes.h"
+
+1364105999 /usr/local/include/IImageLoader.h
+	"IReferenceCounted.h"
+	"IImage.h"
+	"path.h"
+
+1364105999 /usr/local/include/IImageWriter.h
+	"IReferenceCounted.h"
+	"irrString.h"
+	"coreutil.h"
+
+1364105999 /usr/local/include/ILightSceneNode.h
+	"ISceneNode.h"
+	"SLight.h"
+
+1364105999 /usr/local/include/SLight.h
+	"SColor.h"
+
+1364105999 /usr/local/include/IMaterialRenderer.h
+	"IReferenceCounted.h"
+	"SMaterial.h"
+	"S3DVertex.h"
+
+1364105999 /usr/local/include/IMaterialRendererServices.h
+	"SMaterial.h"
+	"S3DVertex.h"
+
+1364105999 /usr/local/include/IMeshCache.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1364105999 /usr/local/include/IMeshLoader.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1364105999 /usr/local/include/IMeshManipulator.h
+	"IReferenceCounted.h"
+	"vector3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"IAnimatedMesh.h"
+	"IMeshBuffer.h"
+	"SVertexManipulator.h"
+
+1364105999 /usr/local/include/SVertexManipulator.h
+	"S3DVertex.h"
+	"SColor.h"
+
+1364105999 /usr/local/include/IMeshSceneNode.h
+	"ISceneNode.h"
+
+1364105999 /usr/local/include/IMeshWriter.h
+	"IReferenceCounted.h"
+	"EMeshWriterEnums.h"
+
+1364105999 /usr/local/include/IColladaMeshWriter.h
+	"IMeshWriter.h"
+	"ISceneNode.h"
+	"IAnimatedMesh.h"
+	"SMaterial.h"
+
+1364105999 /usr/local/include/IMetaTriangleSelector.h
+	"ITriangleSelector.h"
+
+1364105999 /usr/local/include/IOSOperator.h
+	"IReferenceCounted.h"
+	"irrString.h"
+
+1364105999 /usr/local/include/IParticleSystemSceneNode.h
+	"ISceneNode.h"
+	"IParticleAnimatedMeshSceneNodeEmitter.h"
+	"IParticleBoxEmitter.h"
+	"IParticleCylinderEmitter.h"
+	"IParticleMeshEmitter.h"
+	"IParticleRingEmitter.h"
+	"IParticleSphereEmitter.h"
+	"IParticleAttractionAffector.h"
+	"IParticleFadeOutAffector.h"
+	"IParticleGravityAffector.h"
+	"IParticleRotationAffector.h"
+	"dimension2d.h"
+
+1364105999 /usr/local/include/IParticleAnimatedMeshSceneNodeEmitter.h
+	"IParticleEmitter.h"
+	"IAnimatedMeshSceneNode.h"
+
+1364105999 /usr/local/include/IParticleEmitter.h
+	"IAttributeExchangingObject.h"
+	"SParticle.h"
+
+1364105999 /usr/local/include/SParticle.h
+	"vector3d.h"
+	"dimension2d.h"
+	"SColor.h"
+
+1364105999 /usr/local/include/IParticleBoxEmitter.h
+	"IParticleEmitter.h"
+	"aabbox3d.h"
+
+1364105999 /usr/local/include/IParticleCylinderEmitter.h
+	"IParticleEmitter.h"
+
+1364105999 /usr/local/include/IParticleMeshEmitter.h
+	"IParticleEmitter.h"
+	"IMesh.h"
+
+1364105999 /usr/local/include/IParticleRingEmitter.h
+	"IParticleEmitter.h"
+
+1364105999 /usr/local/include/IParticleSphereEmitter.h
+	"IParticleEmitter.h"
+
+1364105999 /usr/local/include/IParticleAttractionAffector.h
+	"IParticleAffector.h"
+
+1364105999 /usr/local/include/IParticleAffector.h
+	"IAttributeExchangingObject.h"
+	"SParticle.h"
+
+1364105999 /usr/local/include/IParticleFadeOutAffector.h
+	"IParticleAffector.h"
+
+1364105999 /usr/local/include/IParticleGravityAffector.h
+	"IParticleAffector.h"
+
+1364105999 /usr/local/include/IParticleRotationAffector.h
+	"IParticleAffector.h"
+
+1364105999 /usr/local/include/IQ3LevelMesh.h
+	"IAnimatedMesh.h"
+	"IQ3Shader.h"
+
+1364105999 /usr/local/include/IRandomizer.h
+	"IReferenceCounted.h"
+
+1364105999 /usr/local/include/IrrlichtDevice.h
+	"IReferenceCounted.h"
+	"dimension2d.h"
+	"IVideoDriver.h"
+	"EDriverTypes.h"
+	"EDeviceTypes.h"
+	"IEventReceiver.h"
+	"ICursorControl.h"
+	"IVideoModeList.h"
+	"ITimer.h"
+	"IOSOperator.h"
+
+1364105999 /usr/local/include/EDeviceTypes.h
+
+1364105999 /usr/local/include/IVideoModeList.h
+	"IReferenceCounted.h"
+	"dimension2d.h"
+
+1364105999 /usr/local/include/ITimer.h
+	"IReferenceCounted.h"
+
+1364105999 /usr/local/include/irrMap.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1364105999 /usr/local/include/ISceneCollisionManager.h
+	"IReferenceCounted.h"
+	"vector3d.h"
+	"triangle3d.h"
+	"position2d.h"
+	"line3d.h"
+
+1364105999 /usr/local/include/ISceneLoader.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1364105999 /usr/local/include/ISceneManager.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"irrString.h"
+	"path.h"
+	"vector3d.h"
+	"dimension2d.h"
+	"SColor.h"
+	"ETerrainElements.h"
+	"ESceneNodeTypes.h"
+	"ESceneNodeAnimatorTypes.h"
+	"EMeshWriterEnums.h"
+	"SceneParameters.h"
+	"IGeometryCreator.h"
+	"ISkinnedMesh.h"
+
+1364105999 /usr/local/include/SceneParameters.h
+
+1364105999 /usr/local/include/ISkinnedMesh.h
+	"irrArray.h"
+	"IBoneSceneNode.h"
+	"IAnimatedMesh.h"
+	"SSkinMeshBuffer.h"
+
+1364105999 /usr/local/include/SSkinMeshBuffer.h
+	"IMeshBuffer.h"
+	"S3DVertex.h"
+
+1364105999 /usr/local/include/ISceneNodeAnimatorCameraFPS.h
+	"ISceneNodeAnimator.h"
+	"IEventReceiver.h"
+	"irrArray.h"
+
+1364105999 /usr/local/include/ISceneNodeAnimatorCameraMaya.h
+	"ISceneNodeAnimator.h"
+
+1364105999 /usr/local/include/ISceneNodeAnimatorCollisionResponse.h
+	"ISceneNode.h"
+
+1364105999 /usr/local/include/ISceneNodeAnimatorFactory.h
+	"IReferenceCounted.h"
+	"ESceneNodeAnimatorTypes.h"
+
+1364105999 /usr/local/include/ISceneNodeFactory.h
+	"IReferenceCounted.h"
+	"ESceneNodeTypes.h"
+
+1364105999 /usr/local/include/ISceneUserDataSerializer.h
+	"IReferenceCounted.h"
+
+1364105999 /usr/local/include/IShaderConstantSetCallBack.h
+	"IReferenceCounted.h"
+
+1364105999 /usr/local/include/IShadowVolumeSceneNode.h
+	"ISceneNode.h"
+
+1364105999 /usr/local/include/ITerrainSceneNode.h
+	"ETerrainElements.h"
+	"ISceneNode.h"
+	"IDynamicMeshBuffer.h"
+	"irrArray.h"
+
+1364105999 /usr/local/include/ITextSceneNode.h
+	"ISceneNode.h"
+
+1364105999 /usr/local/include/IVolumeLightSceneNode.h
+	"ISceneNode.h"
+
+1364105999 /usr/local/include/IWriteFile.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1364105999 /usr/local/include/IXMLWriter.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"irrString.h"
+
+1364105999 /usr/local/include/ILightManager.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+
+1364105999 /usr/local/include/SAnimatedMesh.h
+	"IAnimatedMesh.h"
+	"IMesh.h"
+	"aabbox3d.h"
+	"irrArray.h"
+
+1364105999 /usr/local/include/SIrrCreationParameters.h
+	"EDriverTypes.h"
+	"EDeviceTypes.h"
+	"dimension2d.h"
+	"ILogger.h"
+
+1364105999 /usr/local/include/SKeyMap.h
+	"Keycodes.h"
+
+1364105999 /usr/local/include/SMesh.h
+	"IMesh.h"
+	"IMeshBuffer.h"
+	"aabbox3d.h"
+	"irrArray.h"
+
+1364105999 /usr/local/include/SMeshBuffer.h
+	"CMeshBuffer.h"
+
+1364105999 /usr/local/include/SMeshBufferLightMap.h
+	"CMeshBuffer.h"
+
+1364105999 /usr/local/include/SMeshBufferTangents.h
+	"CMeshBuffer.h"
+
+1364105999 /usr/local/include/SSharedMeshBuffer.h
+	"irrArray.h"
+	"IMeshBuffer.h"
+
+1364105999 /usr/local/include/SViewFrustum.h
+	"plane3d.h"
+	"vector3d.h"
+	"line3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"IVideoDriver.h"
+
+1364904277 /home/justin/GameProjects/WasteLand/MyEventReceiver.h
+	<string>
+	<sstream>
+	<irrlicht.h>
+
+1361932894 /home/justin/GameProjects/WasteLand/NonPlayerCharacterInstance.h
+	"CharacterInstance.h"
+	"CompoundCharacterCommand.h"
+
+1365617827 /home/justin/GameProjects/WasteLand/CharacterInstance.h
+	"BaseInstance.h"
+	"Perameters.h"
+	"ItemSlot.h"
+	"ItemList.h"
+
+1364846715 /home/justin/GameProjects/WasteLand/BaseInstance.h
+	"IrrWrapper.h"
+	"Telegram.h"
+
+1364845786 /home/justin/GameProjects/WasteLand/Telegram.h
+	<math.h>
+
+1365663423 /home/justin/GameProjects/WasteLand/Perameters.h
+	"IrrWrapper.h"
+
+1365616636 /home/justin/GameProjects/WasteLand/ItemSlot.h
+	"IrrWrapper.h"
+	"BaseItem.h"
+
+1365614750 /home/justin/GameProjects/WasteLand/BaseItem.h
+	"BaseItemTemplate.h"
+
+1365614750 /home/justin/GameProjects/WasteLand/BaseItemTemplate.h
+	"Perameters.h"
+	"IrrWrapper.h"
+	<string>
+
+1365616565 /home/justin/GameProjects/WasteLand/ItemList.h
+	"ItemSlot.h"
+	<vector>
+
+1364845786 /home/justin/GameProjects/WasteLand/CommandWander.h
+	"CompoundCharacterCommand.h"
+
+1357393538 source:/home/justin/GameProjects/WasteLand/ArmourItem.cpp
+	"ArmourItem.h"
+
+1365663785 /home/justin/GameProjects/WasteLand/ArmourItem.h
+	"BaseItem.h"
+	"ArmourItemTemplate.h"
+
+1365665860 /home/justin/GameProjects/WasteLand/ArmourItemTemplate.h
+	"BaseItemTemplate.h"
+
+1361326194 source:/home/justin/GameProjects/WasteLand/AStarGoalPathToPosition.cpp
+	"AStarGoalPathToPosition.h"
+
+1365624097 /home/justin/GameProjects/WasteLand/AStarGoalPathToPosition.h
+	"AStarGoalBase.h"
+	"IrrWrapper.h"
+
+1361489814 /home/justin/GameProjects/WasteLand/AStarGoalBase.h
+	"IrrWrapper.h"
+
+1361491182 source:/home/justin/GameProjects/WasteLand/AStarPathToRandomPosition.cpp
+	"AStarGoalPathToRandomPosition.h"
+
+1361490872 /home/justin/GameProjects/WasteLand/AStarGoalPathToRandomPosition.h
+	"AStarGoalBase.h"
+	"IrrWrapper.h"
+
+1364906123 source:/home/justin/GameProjects/WasteLand/BaseBlock.cpp
+	"BaseBlock.h"
+
+1364906123 /home/justin/GameProjects/WasteLand/BaseBlock.h
+	"IrrWrapper.h"
+	<string>
+	"Perameters.h"
+	"BaseBlockTemplate.h"
+
+1363391762 /home/justin/GameProjects/WasteLand/BaseBlockTemplate.h
+	"IrrWrapper.h"
+	<vector>
+
+1364201693 source:/home/justin/GameProjects/WasteLand/BaseInstance.cpp
+	"BaseInstance.h"
+	"InstanceManager.h"
+
+1365632983 /home/justin/GameProjects/WasteLand/InstanceManager.h
+	"IrrWrapper.h"
+	<map>
+	<list>
+	<vector>
+
+1356999182 source:/home/justin/GameProjects/WasteLand/BaseItem.cpp
+	"BaseItem.h"
+
+1356999494 source:/home/justin/GameProjects/WasteLand/BlockItem.cpp
+	"BlockItem.h"
+
+1364845893 /home/justin/GameProjects/WasteLand/BlockItem.h
+	"BaseItem.h"
+	"BlockItemTemplate.h"
+
+1356057532 /home/justin/GameProjects/WasteLand/BlockItemTemplate.h
+	"BaseItemTemplate.h"
+
+1365663874 source:/home/justin/GameProjects/WasteLand/BlockManager.cpp
+	"BlockManager.h"
+	"SimpleBlock.h"
+	"Damage.h"
+	"ItemManager.h"
+	<iostream>
+	<assert.h>
+
+1363391744 /home/justin/GameProjects/WasteLand/BlockManager.h
+	"BaseBlockTemplate.h"
+	"ComplexBlockTemplate.h"
+	"BaseBlock.h"
+	<map>
+
+1359671664 /home/justin/GameProjects/WasteLand/ComplexBlockTemplate.h
+	"IrrWrapper.h"
+	"BaseBlockTemplate.h"
+	<string>
+
+1363391744 /home/justin/GameProjects/WasteLand/SimpleBlock.h
+	"BaseBlock.h"
+
+1359669626 /home/justin/GameProjects/WasteLand/Damage.h
+
+1358730330 source:/home/justin/GameProjects/WasteLand/Button.cpp
+	"Button.h"
+
+1364845935 /home/justin/GameProjects/WasteLand/Button.h
+	"IrrWrapper.h"
+
+1364846296 source:/home/justin/GameProjects/WasteLand/CharacterCommand.cpp
+	"CharacterCommand.h"
+
+1365633017 source:/home/justin/GameProjects/WasteLand/CharacterInstance.cpp
+	"CharacterInstance.h"
+	"CharacterCommand.h"
+	"BrainSoldier.h"
+	"GameManager.h"
+	<iostream>
+	"InstanceManager.h"
+	"MessageManager.h"
+	"CharacterInstanceTemplate.h"
+
+1364197180 /home/justin/GameProjects/WasteLand/CommandProcessor.h
+	"CompoundCharacterCommand.h"
+
+1364845935 /home/justin/GameProjects/WasteLand/GameManager.h
+	<vector>
+	<queue>
+	<map>
+	"MapChunkInstance.h"
+	"Perameters.h"
+	"MapManager.h"
+
+1364845935 /home/justin/GameProjects/WasteLand/MapChunkInstance.h
+	"IrrWrapper.h"
+	"BaseInstance.h"
+	<string>
+	<fstream>
+
+1363143138 /home/justin/GameProjects/WasteLand/PlayerInstance.h
+	"CharacterInstance.h"
+	"PlayerInventoryInterface.h"
+	<string>
+	<deque>
+
+1358817700 /home/justin/GameProjects/WasteLand/PlayerInventoryInterface.h
+	"IrrWrapper.h"
+	"Button.h"
+	"ItemSlot.h"
+
+1364845935 /home/justin/GameProjects/WasteLand/MapManager.h
+	"Perameters.h"
+	"IrrWrapper.h"
+	"MapChunkInstance.h"
+	"ChunkCacheObject.h"
+	<string>
+	<vector>
+	<queue>
+	<map>
+
+1359016346 /home/justin/GameProjects/WasteLand/ChunkCacheObject.h
+
+1364262724 /home/justin/GameProjects/WasteLand/MessageManager.h
+	"IrrWrapper.h"
+	"Telegram.h"
+	"DamageHitMessage.h"
+	<set>
+
+1364354660 /home/justin/GameProjects/WasteLand/CharacterInstanceTemplate.h
+	"IrrWrapper.h"
+	"Damage.h"
+	<string>
+
+1359016346 source:/home/justin/GameProjects/WasteLand/ChunkCacheObject.cpp
+	"ChunkCacheObject.h"
+	"MapChunkInstance.h"
+
+1364951639 source:/home/justin/GameProjects/WasteLand/CommandAttackCharacter.cpp
+	"CommandAttackCharacter.h"
+	"CharacterInstance.h"
+	"Telegram.h"
+	"InstanceManager.h"
+	"CommandPathToCharacter.h"
+	"CharacterInstanceSoldier.h"
+	<iostream>
+
+1364846367 /home/justin/GameProjects/WasteLand/CommandAttackCharacter.h
+	"CompoundCharacterCommand.h"
+
+1364846368 /home/justin/GameProjects/WasteLand/CommandPathToCharacter.h
+	"CompoundCharacterCommand.h"
+
+1364197657 source:/home/justin/GameProjects/WasteLand/CommandDestroyBlock.cpp
+	"CommandDestroyBlock.h"
+	"GameManager.h"
+	"CharacterInstance.h"
+	"CharacterInstance.h"
+	<iostream>
+
+1364846367 /home/justin/GameProjects/WasteLand/CommandDestroyBlock.h
+	"CharacterCommand.h"
+
+1364197657 source:/home/justin/GameProjects/WasteLand/CommandIdle.cpp
+	"CommandIdle.h"
+	"CharacterInstance.h"
+
+1364846367 /home/justin/GameProjects/WasteLand/CommandIdle.h
+	"CharacterCommand.h"
+
+1365624097 source:/home/justin/GameProjects/WasteLand/CommandMoveToPosition.cpp
+	"CommandMoveToPosition.h"
+	"CharacterInstance.h"
+
+1365624042 /home/justin/GameProjects/WasteLand/CommandMoveToPosition.h
+	"CharacterCommand.h"
+
+1364197657 source:/home/justin/GameProjects/WasteLand/CommandMoveToRandomPosition.cpp
+	"CommandMoveToRandomPosition.h"
+	"CommandMoveToPosition.h"
+	"PathPlanner.h"
+	"CharacterInstance.h"
+
+1364846499 /home/justin/GameProjects/WasteLand/CommandMoveToRandomPosition.h
+	"CompoundCharacterCommand.h"
+
+1361771850 /home/justin/GameProjects/WasteLand/PathPlanner.h
+	"IrrWrapper.h"
+	"AStarGoalBase.h"
+	<list>
+	<vector>
+
+1364428571 source:/home/justin/GameProjects/WasteLand/CommandPathToCharacter.cpp
+	"CommandPathToCharacter.h"
+	"CharacterInstance.h"
+	"Telegram.h"
+	"InstanceManager.h"
+	"CommandPathToPosition.h"
+	<iostream>
+
+1365624097 /home/justin/GameProjects/WasteLand/CommandPathToPosition.h
+	"CompoundCharacterCommand.h"
+
+1365624042 source:/home/justin/GameProjects/WasteLand/CommandPathToPosition.cpp
+	"CommandPathToPosition.h"
+	"CharacterInstance.h"
+	"CommandMoveToPosition.h"
+	"PathPlanner.h"
+	<iostream>
+
+1360498926 source:/home/justin/GameProjects/WasteLand/CommandProcessor.cpp
+	"CommandProcessor.h"
+	"CharacterInstance.h"
+	"GameManager.h"
+
+1364596236 source:/home/justin/GameProjects/WasteLand/CommandWander.cpp
+	"CommandWander.h"
+	"CharacterInstance.h"
+	"CommandMoveToRandomPosition.h"
+	"CommandIdle.h"
+
+1359677516 source:/home/justin/GameProjects/WasteLand/ComplexBlock.cpp
+	"ComplexBlock.h"
+	"ComplexBlockTemplate.h"
+
+1359677490 /home/justin/GameProjects/WasteLand/ComplexBlock.h
+	"BaseBlock.h"
+	"Socket.h"
+
+1352085758 /home/justin/GameProjects/WasteLand/Socket.h
+	"IrrWrapper.h"
+
+1346283524 source:/home/justin/GameProjects/WasteLand/CompoundCharacterCommand.cpp
+	"CompoundCharacterCommand.h"
+
+1356999494 source:/home/justin/GameProjects/WasteLand/ConsumableItem.cpp
+	"ConsumableItem.h"
+
+1364846622 /home/justin/GameProjects/WasteLand/ConsumableItem.h
+	"BaseItem.h"
+	"ConsumableItemTemplate.h"
+
+1356059150 /home/justin/GameProjects/WasteLand/ConsumableItemTemplate.h
+	"BaseItemTemplate.h"
+
+1365623885 source:/home/justin/GameProjects/WasteLand/GameManager.cpp
+	"GameManager.h"
+	"PathPlanner.h"
+	"ItemManager.h"
+	"InstanceManager.h"
+	"FactionManager.h"
+	"AnimalBrain.h"
+	"BrainSoldier.h"
+	"Faction.h"
+	"CharacterInstance.h"
+	"CharacterInstanceSoldier.h"
+	"BrainNonFactionHostile.h"
+
+1365614750 /home/justin/GameProjects/WasteLand/ItemInstance.h
+	"BaseInstance.h"
+	"BaseItem.h"
+
+1364846976 /home/justin/GameProjects/WasteLand/ZombieInstance.h
+	"IrrWrapper.h"
+	"CharacterInstance.h"
+
+1364847414 /home/justin/GameProjects/WasteLand/ProjectileInstance.h
+	"IrrWrapper.h"
+	"Damage.h"
+
+1356046842 /home/justin/GameProjects/WasteLand/FurnaceItemInstance.h
+	"ItemInstance.h"
+	"ItemSlot.h"
+
+1364846813 /home/justin/GameProjects/WasteLand/ParticleInstance.h
+	<string>
+	"IrrWrapper.h"
+
+1355822636 /home/justin/GameProjects/WasteLand/PlayerInterface.h
+	"IrrWrapper.h"
+	"ItemSlot.h"
+	<vector>
+
+1365663423 /home/justin/GameProjects/WasteLand/ItemManager.h
+	"BaseItemTemplate.h"
+	"BaseItem.h"
+	<map>
+
+1365632983 source:/home/justin/GameProjects/WasteLand/InstanceManager.cpp
+	"InstanceManager.h"
+	"BaseInstance.h"
+	"CharacterInstance.h"
+	"ProjectileInstance.h"
+	"ProjectileInstanceTemplate.h"
+	"GameManager.h"
+	"MapManager.h"
+	"CharacterInstanceTemplate.h"
+	"ItemInstance.h"
+	"ParticleInstance.h"
+	"ItemManager.h"
+	"CharacterInstanceSoldier.h"
+
+1364502906 /home/justin/GameProjects/WasteLand/ProjectileInstanceTemplate.h
+	"IrrWrapper.h"
+	"Damage.h"
+	<string>
+
+1365556572 source:/home/justin/GameProjects/WasteLand/IrrWrapper.cpp
+	"IrrWrapper.h"
+	"MyEventReceiver.h"
+	<fstream>
+	<sstream>
+	<math.h>
+	"Perameters.h"
+
+1364109525 source:/home/justin/GameProjects/WasteLand/ItemInstance.cpp
+	"ItemInstance.h"
+	"GameManager.h"
+	"ItemManager.h"
+
+1365616565 source:/home/justin/GameProjects/WasteLand/ItemList.cpp
+	"ItemList.h"
+	<iostream>
+
+1365666007 source:/home/justin/GameProjects/WasteLand/ItemManager.cpp
+	"ItemManager.h"
+	"SimpleBlock.h"
+	"BlockItemTemplate.h"
+	"ProjectileWeaponItemTemplate.h"
+	"ToolItemTemplate.h"
+	"ConsumableItemTemplate.h"
+	"ArmourItemTemplate.h"
+	"AmmoItemTemplate.h"
+	"BaseItem.h"
+	"BlockItem.h"
+	"ProjectileWeaponItem.h"
+	"ToolItem.h"
+	"ConsumableItem.h"
+	"ArmourItem.h"
+	"ThrownWeaponItem.h"
+	"MeleeWeaponItem.h"
+	"AmmoItem.h"
+	<assert.h>
+
+1364503944 /home/justin/GameProjects/WasteLand/ProjectileWeaponItemTemplate.h
+	"BaseItemTemplate.h"
+
+1359676860 /home/justin/GameProjects/WasteLand/ToolItemTemplate.h
+	"BaseItemTemplate.h"
+	"Damage.h"
+
+1364902923 /home/justin/GameProjects/WasteLand/ProjectileWeaponItem.h
+	"BaseItem.h"
+	"ProjectileWeaponItemTemplate.h"
+
+1364264275 /home/justin/GameProjects/WasteLand/ToolItem.h
+	"BaseItem.h"
+	"ToolItemTemplate.h"
+
+1365616709 source:/home/justin/GameProjects/WasteLand/ItemSlot.cpp
+	"ItemSlot.h"
+	"IrrWrapper.h"
+	"ItemManager.h"
+	"BaseItem.h"
+
+1364936492 source:/home/justin/GameProjects/WasteLand/main.cpp
+	"IrrWrapper.h"
+	"GameManager.h"
+	"MapChunkInstance.h"
+	"Perameters.h"
+	"ItemManager.h"
+	"InstanceManager.h"
+	<iostream>
+	"MapManager.h"
+
+1365633047 source:/home/justin/GameProjects/WasteLand/MapChunkInstance.cpp
+	"MapChunkInstance.h"
+	"InstanceManager.h"
+	"GameManager.h"
+	"ItemInstance.h"
+	"ZombieInstance.h"
+	"BlockManager.h"
+	"SimpleBlock.h"
+	"ProjectileInstance.h"
+	"MessageManager.h"
+	"ItemManager.h"
+	<fstream>
+	<map>
+	<iostream>
+
+1364846976 source:/home/justin/GameProjects/WasteLand/MapManager.cpp
+	"MapManager.h"
+	"GameManager.h"
+	"PathPlanner.h"
+	"SimpleBlock.h"
+	"BlockManager.h"
+	"InstanceManager.h"
+	<iostream>
+
+1364955983 source:/home/justin/GameProjects/WasteLand/MyEventReceiver.cpp
+	"MyEventReceiver.h"
+	"IrrWrapper.h"
+
+1361933038 source:/home/justin/GameProjects/WasteLand/NonPlayerCharacterInstance.cpp
+	"NonPlayerCharacterInstance.h"
+	"ZombieBrain.h"
+	"AnimalBrain.h"
+	"CharacterInstanceTemplate.h"
+
+1364846715 /home/justin/GameProjects/WasteLand/ZombieBrain.h
+	"CompoundCharacterCommand.h"
+
+1339832942 source:/home/justin/GameProjects/WasteLand/ParticleInstance.cpp
+	"ParticleInstance.h"
+
+1364906667 source:/home/justin/GameProjects/WasteLand/PathPlanner.cpp
+	"PathPlanner.h"
+	"GameManager.h"
+	<string>
+	<iostream>
+	"AStarGoalPathToPosition.h"
+	"AStarGoalPathToRandomPosition.h"
+
+1364160674 source:/home/justin/GameProjects/WasteLand/MessageManager.cpp
+	"MessageManager.h"
+	"BaseInstance.h"
+	"InstanceManager.h"
+
+1363143074 source:/home/justin/GameProjects/WasteLand/PlayerInstance.cpp
+	"PlayerInstance.h"
+	"GameManager.h"
+	"Perameters.h"
+	"ItemInstance.h"
+	<iostream>
+	"ZombieInstance.h"
+	"ItemManager.h"
+	"ProjectileWeaponItem.h"
+	"InstanceManager.h"
+	"MessageManager.h"
+	"CharacterInstanceTemplate.h"
+
+1358819208 source:/home/justin/GameProjects/WasteLand/PlayerInventoryInterface.cpp
+	"PlayerInventoryInterface.h"
+	"PlayerInstance.h"
+	"ItemList.h"
+	"ItemSlot.h"
+
+1364936211 source:/home/justin/GameProjects/WasteLand/ProjectileInstance.cpp
+	"ProjectileInstance.h"
+	"Perameters.h"
+	"GameManager.h"
+	"ZombieInstance.h"
+	"CharacterInstance.h"
+	"InstanceManager.h"
+	"MessageManager.h"
+	"ProjectileInstanceTemplate.h"
+	"Damage.h"
+
+1365542227 source:/home/justin/GameProjects/WasteLand/ProjectileWeaponItem.cpp
+	"ProjectileWeaponItem.h"
+	"InstanceManager.h"
+	"CharacterInstanceSoldier.h"
+	"MessageManager.h"
+	"ItemManager.h"
+	"AmmoItem.h"
+	<iostream>
+
+1363391744 source:/home/justin/GameProjects/WasteLand/SimpleBlock.cpp
+	"SimpleBlock.h"
+	"MapManager.h"
+	"BaseBlockTemplate.h"
+
+1364109525 source:/home/justin/GameProjects/WasteLand/Socket.cpp
+	"Socket.h"
+	"ComplexBlock.h"
+
+1360804104 source:/home/justin/GameProjects/WasteLand/ToolItem.cpp
+	"ToolItem.h"
+	"InstanceManager.h"
+	"CharacterInstance.h"
+	"MessageManager.h"
+
+1364847414 source:/home/justin/GameProjects/WasteLand/ZombieBrain.cpp
+	"ZombieBrain.h"
+	"CharacterInstance.h"
+	"InstanceManager.h"
+	"CommandAttackCharacter.h"
+	<iostream>
+	"CharacterInstance.h"
+	"CommandWander.h"
+	<stdlib.h>
+
+1364260054 source:/home/justin/GameProjects/WasteLand/Faction.cpp
+	"Faction.h"
+
+1365471263 /home/justin/GameProjects/WasteLand/Faction.h
+	<list>
+
+1364194357 source:/home/justin/GameProjects/WasteLand/FactionManager.cpp
+	"FactionManager.h"
+	"FactionPlayer.h"
+	"Faction.h"
+
+1364192341 /home/justin/GameProjects/WasteLand/FactionManager.h
+	<list>
+
+1365624554 /home/justin/GameProjects/WasteLand/FactionPlayer.h
+	"Faction.h"
+	"IrrWrapper.h"
+	<list>
+	"Button.h"
+	"SoldierInventoryInterface.h"
+
+1365624755 source:/home/justin/GameProjects/WasteLand/FactionPlayer.cpp
+	"FactionPlayer.h"
+	"CharacterInstance.h"
+	"MapManager.h"
+	"CharacterInstanceSoldier.h"
+	"InstanceManager.h"
+	"CommandPathToPosition.h"
+	"CommandAttackCharacter.h"
+	"CommandPickUpItem.h"
+
+1364198318 source:/home/justin/GameProjects/WasteLand/BrainSoldier.cpp
+	"BrainSoldier.h"
+	"CharacterInstance.h"
+	"GameManager.h"
+
+1364845935 /home/justin/GameProjects/WasteLand/BrainSoldier.h
+	"CompoundCharacterCommand.h"
+
+1365665891 source:/home/justin/GameProjects/WasteLand/CharacterInstanceSoldier.cpp
+	"CharacterInstanceSoldier.h"
+	"InstanceManager.h"
+	"MessageManager.h"
+	"MeleeWeaponItem.h"
+	"ThrownWeaponItem.h"
+	"ProjectileWeaponItem.h"
+	"CharacterInstanceTemplate.h"
+	"CompoundCharacterCommand.h"
+	"ArmourItem.h"
+	<iostream>
+
+1365665860 /home/justin/GameProjects/WasteLand/CharacterInstanceSoldier.h
+	"CharacterInstance.h"
+
+1365633985 /home/justin/GameProjects/WasteLand/SoldierInventoryInterface.h
+	"IrrWrapper.h"
+	"Button.h"
+	"ItemSlot.h"
+
+1365636293 source:/home/justin/GameProjects/WasteLand/SoldierInventoryInterface.cpp
+	"SoldierInventoryInterface.h"
+	"CharacterInstanceSoldier.h"
+	"InstanceManager.h"
+	"ItemList.h"
+	"ItemSlot.h"
+	"ProjectileWeaponItem.h"
+
+1364262712 /home/justin/GameProjects/WasteLand/DamageHitMessage.h
+	"Damage.h"
+	"IrrWrapper.h"
+
+1364595095 source:/home/justin/GameProjects/WasteLand/MeleeWeaponItem.cpp
+	"MeleeWeaponItem.h"
+	"MeleeWeaponItemTemplate.h"
+	"InstanceManager.h"
+	"CharacterInstance.h"
+	"MessageManager.h"
+	<iostream>
+
+1364596833 /home/justin/GameProjects/WasteLand/MeleeWeaponItem.h
+	"BaseItem.h"
+	"MeleeWeaponItemTemplate.h"
+
+1364264463 /home/justin/GameProjects/WasteLand/MeleeWeaponItemTemplate.h
+	"BaseItemTemplate.h"
+	"Damage.h"
+
+1364264717 source:/home/justin/GameProjects/WasteLand/ThrownWeaponItem.cpp
+	"ThrownWeaponItem.h"
+	"ThrownWeaponItemTemplate.h"
+	"InstanceManager.h"
+	"CharacterInstance.h"
+	"MessageManager.h"
+
+1364274829 /home/justin/GameProjects/WasteLand/ThrownWeaponItem.h
+	"BaseItem.h"
+	"ThrownWeaponItemTemplate.h"
+
+1364264737 /home/justin/GameProjects/WasteLand/ThrownWeaponItemTemplate.h
+	"BaseItemTemplate.h"
+	"Damage.h"
+
+1364502627 source:/home/justin/GameProjects/WasteLand/AmmoItem.cpp
+	"AmmoItem.h"
+
+1364503459 /home/justin/GameProjects/WasteLand/AmmoItem.h
+	"BaseItem.h"
+	"AmmoItemTemplate.h"
+
+1364501905 /home/justin/GameProjects/WasteLand/AmmoItemTemplate.h
+	"BaseItemTemplate.h"
+	"Damage.h"
+
+1364951752 source:/home/justin/GameProjects/WasteLand/BrainNonFactionHostile.cpp
+	"BrainNonFactionHostile.h"
+	"CharacterInstanceSoldier.h"
+	"InstanceManager.h"
+	"CommandAttackCharacter.h"
+	"CommandWander.h"
+	<iostream>
+	<stdlib.h>
+
+1364951822 /home/justin/GameProjects/WasteLand/BrainNonFactionHostile.h
+	"CompoundCharacterCommand.h"
+
+1365468064 /home/justin/GameProjects/WasteLand/FactionPlayerSoldierHandle.h
+	"SoldierInventoryInterface.h"
+
+1365625311 source:/home/justin/GameProjects/WasteLand/CommandPickUpItem.cpp
+	"CommandPickUpItem.h"
+	"CharacterInstanceSoldier.h"
+	"ItemInstance.h"
+	"InstanceManager.h"
+	"CommandPathToPosition.h"
+	<iostream>
+
+1365623811 /home/justin/GameProjects/WasteLand/CommandPickUpItem.h
+	"CompoundCharacterCommand.h"
+
+1364502627 source:/home/justin/Documents/GameProjects/WasteLand/AmmoItem.cpp
+	"AmmoItem.h"
+
+1364503459 /home/justin/Documents/GameProjects/WasteLand/AmmoItem.h
+	"BaseItem.h"
+	"AmmoItemTemplate.h"
+
+1365614750 /home/justin/Documents/GameProjects/WasteLand/BaseItem.h
+	"BaseItemTemplate.h"
+
+1365614750 /home/justin/Documents/GameProjects/WasteLand/BaseItemTemplate.h
+	"Perameters.h"
+	"IrrWrapper.h"
+	<string>
+
+1368342421 /home/justin/Documents/GameProjects/WasteLand/Perameters.h
+	"IrrWrapper.h"
+
+1364936302 /home/justin/Documents/GameProjects/WasteLand/IrrWrapper.h
+	<string>
+	<sstream>
+	<irrlicht.h>
+	"MyEventReceiver.h"
+
+1364904277 /home/justin/Documents/GameProjects/WasteLand/MyEventReceiver.h
+	<string>
+	<sstream>
+	<irrlicht.h>
+
+1364501905 /home/justin/Documents/GameProjects/WasteLand/AmmoItemTemplate.h
+	"BaseItemTemplate.h"
+	"Damage.h"
+
+1359669626 /home/justin/Documents/GameProjects/WasteLand/Damage.h
+
+1364197657 source:/home/justin/Documents/GameProjects/WasteLand/AnimalBrain.cpp
+	"AnimalBrain.h"
+	<iostream>
+	"CharacterInstance.h"
+	"CommandWander.h"
+
+1365623949 /home/justin/Documents/GameProjects/WasteLand/AnimalBrain.h
+	"CompoundCharacterCommand.h"
+
+1364845787 /home/justin/Documents/GameProjects/WasteLand/CompoundCharacterCommand.h
+	"CharacterCommand.h"
+	<list>
+
+1368700152 /home/justin/Documents/GameProjects/WasteLand/CharacterCommand.h
+	"IrrWrapper.h"
+
+1368310865 /home/justin/Documents/GameProjects/WasteLand/CharacterInstance.h
+	"BaseInstance.h"
+	"Perameters.h"
+	"ItemSlot.h"
+	"ItemList.h"
+
+1364846715 /home/justin/Documents/GameProjects/WasteLand/BaseInstance.h
+	"IrrWrapper.h"
+	"Telegram.h"
+
+1364845786 /home/justin/Documents/GameProjects/WasteLand/Telegram.h
+	<math.h>
+
+1365616636 /home/justin/Documents/GameProjects/WasteLand/ItemSlot.h
+	"IrrWrapper.h"
+	"BaseItem.h"
+
+1365616565 /home/justin/Documents/GameProjects/WasteLand/ItemList.h
+	"ItemSlot.h"
+	<vector>
+
+1364845786 /home/justin/Documents/GameProjects/WasteLand/CommandWander.h
+	"CompoundCharacterCommand.h"
+
+1357393538 source:/home/justin/Documents/GameProjects/WasteLand/ArmourItem.cpp
+	"ArmourItem.h"
+
+1365663785 /home/justin/Documents/GameProjects/WasteLand/ArmourItem.h
+	"BaseItem.h"
+	"ArmourItemTemplate.h"
+
+1368147686 /home/justin/Documents/GameProjects/WasteLand/ArmourItemTemplate.h
+	"BaseItemTemplate.h"
+
+1361326194 source:/home/justin/Documents/GameProjects/WasteLand/AStarGoalPathToPosition.cpp
+	"AStarGoalPathToPosition.h"
+
+1365624097 /home/justin/Documents/GameProjects/WasteLand/AStarGoalPathToPosition.h
+	"AStarGoalBase.h"
+	"IrrWrapper.h"
+
+1361489814 /home/justin/Documents/GameProjects/WasteLand/AStarGoalBase.h
+	"IrrWrapper.h"
+
+1361491182 source:/home/justin/Documents/GameProjects/WasteLand/AStarPathToRandomPosition.cpp
+	"AStarGoalPathToRandomPosition.h"
+
+1361490872 /home/justin/Documents/GameProjects/WasteLand/AStarGoalPathToRandomPosition.h
+	"AStarGoalBase.h"
+	"IrrWrapper.h"
+
+1364906123 source:/home/justin/Documents/GameProjects/WasteLand/BaseBlock.cpp
+	"BaseBlock.h"
+
+1364906123 /home/justin/Documents/GameProjects/WasteLand/BaseBlock.h
+	"IrrWrapper.h"
+	<string>
+	"Perameters.h"
+	"BaseBlockTemplate.h"
+
+1363391762 /home/justin/Documents/GameProjects/WasteLand/BaseBlockTemplate.h
+	"IrrWrapper.h"
+	<vector>
+
+1364201693 source:/home/justin/Documents/GameProjects/WasteLand/BaseInstance.cpp
+	"BaseInstance.h"
+	"InstanceManager.h"
+
+1368309200 /home/justin/Documents/GameProjects/WasteLand/InstanceManager.h
+	"IrrWrapper.h"
+	<map>
+	<list>
+	<vector>
+
+1356999182 source:/home/justin/Documents/GameProjects/WasteLand/BaseItem.cpp
+	"BaseItem.h"
+
+1356999494 source:/home/justin/Documents/GameProjects/WasteLand/BlockItem.cpp
+	"BlockItem.h"
+
+1364845893 /home/justin/Documents/GameProjects/WasteLand/BlockItem.h
+	"BaseItem.h"
+	"BlockItemTemplate.h"
+
+1356057532 /home/justin/Documents/GameProjects/WasteLand/BlockItemTemplate.h
+	"BaseItemTemplate.h"
+
+1365663874 source:/home/justin/Documents/GameProjects/WasteLand/BlockManager.cpp
+	"BlockManager.h"
+	"SimpleBlock.h"
+	"Damage.h"
+	"ItemManager.h"
+	<iostream>
+	<assert.h>
+
+1363391744 /home/justin/Documents/GameProjects/WasteLand/BlockManager.h
+	"BaseBlockTemplate.h"
+	"ComplexBlockTemplate.h"
+	"BaseBlock.h"
+	<map>
+
+1359671664 /home/justin/Documents/GameProjects/WasteLand/ComplexBlockTemplate.h
+	"IrrWrapper.h"
+	"BaseBlockTemplate.h"
+	<string>
+
+1363391744 /home/justin/Documents/GameProjects/WasteLand/SimpleBlock.h
+	"BaseBlock.h"
+
+1365663423 /home/justin/Documents/GameProjects/WasteLand/ItemManager.h
+	"BaseItemTemplate.h"
+	"BaseItem.h"
+	<map>
+
+1364951752 source:/home/justin/Documents/GameProjects/WasteLand/BrainNonFactionHostile.cpp
+	"BrainNonFactionHostile.h"
+	"CharacterInstanceSoldier.h"
+	"InstanceManager.h"
+	"CommandAttackCharacter.h"
+	"CommandWander.h"
+	<iostream>
+	<stdlib.h>
+
+1364951822 /home/justin/Documents/GameProjects/WasteLand/BrainNonFactionHostile.h
+	"CompoundCharacterCommand.h"
+
+1368308436 /home/justin/Documents/GameProjects/WasteLand/CharacterInstanceSoldier.h
+	"CharacterInstance.h"
+
+1364846367 /home/justin/Documents/GameProjects/WasteLand/CommandAttackCharacter.h
+	"CompoundCharacterCommand.h"
+
+1368310319 source:/home/justin/Documents/GameProjects/WasteLand/BrainSoldier.cpp
+	"BrainSoldier.h"
+
+1364845935 /home/justin/Documents/GameProjects/WasteLand/BrainSoldier.h
+	"CompoundCharacterCommand.h"
+
+1364845935 /home/justin/Documents/GameProjects/WasteLand/GameManager.h
+	<vector>
+	<queue>
+	<map>
+	"MapChunkInstance.h"
+	"Perameters.h"
+	"MapManager.h"
+
+1364845935 /home/justin/Documents/GameProjects/WasteLand/MapChunkInstance.h
+	"IrrWrapper.h"
+	"BaseInstance.h"
+	<string>
+	<fstream>
+
+1364845935 /home/justin/Documents/GameProjects/WasteLand/MapManager.h
+	"Perameters.h"
+	"IrrWrapper.h"
+	"MapChunkInstance.h"
+	"ChunkCacheObject.h"
+	<string>
+	<vector>
+	<queue>
+	<map>
+
+1359016346 /home/justin/Documents/GameProjects/WasteLand/ChunkCacheObject.h
+
+1358730330 source:/home/justin/Documents/GameProjects/WasteLand/Button.cpp
+	"Button.h"
+
+1364845935 /home/justin/Documents/GameProjects/WasteLand/Button.h
+	"IrrWrapper.h"
+
+1364846296 source:/home/justin/Documents/GameProjects/WasteLand/CharacterCommand.cpp
+	"CharacterCommand.h"
+
+1368310865 source:/home/justin/Documents/GameProjects/WasteLand/CharacterInstance.cpp
+	"CharacterInstance.h"
+	"CharacterCommand.h"
+	"BrainSoldier.h"
+	"GameManager.h"
+	<iostream>
+	"InstanceManager.h"
+	"MessageManager.h"
+	"CharacterInstanceTemplate.h"
+
+1364262724 /home/justin/Documents/GameProjects/WasteLand/MessageManager.h
+	"IrrWrapper.h"
+	"Telegram.h"
+	"DamageHitMessage.h"
+	<set>
+
+1364262712 /home/justin/Documents/GameProjects/WasteLand/DamageHitMessage.h
+	"Damage.h"
+	"IrrWrapper.h"
+
+1364354660 /home/justin/Documents/GameProjects/WasteLand/CharacterInstanceTemplate.h
+	"IrrWrapper.h"
+	"Damage.h"
+	<string>
+
+1368309822 source:/home/justin/Documents/GameProjects/WasteLand/CharacterInstanceSoldier.cpp
+	"CharacterInstanceSoldier.h"
+	"InstanceManager.h"
+	"MessageManager.h"
+	"MeleeWeaponItem.h"
+	"ThrownWeaponItem.h"
+	"ProjectileWeaponItem.h"
+	"CharacterInstanceTemplate.h"
+	"CompoundCharacterCommand.h"
+	"ArmourItem.h"
+	<iostream>
+
+1364596833 /home/justin/Documents/GameProjects/WasteLand/MeleeWeaponItem.h
+	"BaseItem.h"
+	"MeleeWeaponItemTemplate.h"
+
+1364264463 /home/justin/Documents/GameProjects/WasteLand/MeleeWeaponItemTemplate.h
+	"BaseItemTemplate.h"
+	"Damage.h"
+
+1364274829 /home/justin/Documents/GameProjects/WasteLand/ThrownWeaponItem.h
+	"BaseItem.h"
+	"ThrownWeaponItemTemplate.h"
+
+1364264737 /home/justin/Documents/GameProjects/WasteLand/ThrownWeaponItemTemplate.h
+	"BaseItemTemplate.h"
+	"Damage.h"
+
+1364902923 /home/justin/Documents/GameProjects/WasteLand/ProjectileWeaponItem.h
+	"BaseItem.h"
+	"ProjectileWeaponItemTemplate.h"
+
+1364503944 /home/justin/Documents/GameProjects/WasteLand/ProjectileWeaponItemTemplate.h
+	"BaseItemTemplate.h"
+
+1359016346 source:/home/justin/Documents/GameProjects/WasteLand/ChunkCacheObject.cpp
+	"ChunkCacheObject.h"
+	"MapChunkInstance.h"
+
+1364951639 source:/home/justin/Documents/GameProjects/WasteLand/CommandAttackCharacter.cpp
+	"CommandAttackCharacter.h"
+	"CharacterInstance.h"
+	"Telegram.h"
+	"InstanceManager.h"
+	"CommandPathToCharacter.h"
+	"CharacterInstanceSoldier.h"
+	<iostream>
+
+1364846368 /home/justin/Documents/GameProjects/WasteLand/CommandPathToCharacter.h
+	"CompoundCharacterCommand.h"
+
+1364197657 source:/home/justin/Documents/GameProjects/WasteLand/CommandIdle.cpp
+	"CommandIdle.h"
+	"CharacterInstance.h"
+
+1364846367 /home/justin/Documents/GameProjects/WasteLand/CommandIdle.h
+	"CharacterCommand.h"
+
+1365624097 source:/home/justin/Documents/GameProjects/WasteLand/CommandMoveToPosition.cpp
+	"CommandMoveToPosition.h"
+	"CharacterInstance.h"
+
+1365624042 /home/justin/Documents/GameProjects/WasteLand/CommandMoveToPosition.h
+	"CharacterCommand.h"
+
+1364197657 source:/home/justin/Documents/GameProjects/WasteLand/CommandMoveToRandomPosition.cpp
+	"CommandMoveToRandomPosition.h"
+	"CommandMoveToPosition.h"
+	"PathPlanner.h"
+	"CharacterInstance.h"
+
+1364846499 /home/justin/Documents/GameProjects/WasteLand/CommandMoveToRandomPosition.h
+	"CompoundCharacterCommand.h"
+
+1361771850 /home/justin/Documents/GameProjects/WasteLand/PathPlanner.h
+	"IrrWrapper.h"
+	"AStarGoalBase.h"
+	<list>
+	<vector>
+
+1364428571 source:/home/justin/Documents/GameProjects/WasteLand/CommandPathToCharacter.cpp
+	"CommandPathToCharacter.h"
+	"CharacterInstance.h"
+	"Telegram.h"
+	"InstanceManager.h"
+	"CommandPathToPosition.h"
+	<iostream>
+
+1365624097 /home/justin/Documents/GameProjects/WasteLand/CommandPathToPosition.h
+	"CompoundCharacterCommand.h"
+
+1365624042 source:/home/justin/Documents/GameProjects/WasteLand/CommandPathToPosition.cpp
+	"CommandPathToPosition.h"
+	"CharacterInstance.h"
+	"CommandMoveToPosition.h"
+	"PathPlanner.h"
+	<iostream>
+
+1365625311 source:/home/justin/Documents/GameProjects/WasteLand/CommandPickUpItem.cpp
+	"CommandPickUpItem.h"
+	"CharacterInstanceSoldier.h"
+	"ItemInstance.h"
+	"InstanceManager.h"
+	"CommandPathToPosition.h"
+	<iostream>
+
+1365623811 /home/justin/Documents/GameProjects/WasteLand/CommandPickUpItem.h
+	"CompoundCharacterCommand.h"
+
+1365614750 /home/justin/Documents/GameProjects/WasteLand/ItemInstance.h
+	"BaseInstance.h"
+	"BaseItem.h"
+
+1364596236 source:/home/justin/Documents/GameProjects/WasteLand/CommandWander.cpp
+	"CommandWander.h"
+	"CharacterInstance.h"
+	"CommandMoveToRandomPosition.h"
+	"CommandIdle.h"
+
+1359677516 source:/home/justin/Documents/GameProjects/WasteLand/ComplexBlock.cpp
+	"ComplexBlock.h"
+	"ComplexBlockTemplate.h"
+
+1359677490 /home/justin/Documents/GameProjects/WasteLand/ComplexBlock.h
+	"BaseBlock.h"
+	"Socket.h"
+
+1352085758 /home/justin/Documents/GameProjects/WasteLand/Socket.h
+	"IrrWrapper.h"
+
+1346283524 source:/home/justin/Documents/GameProjects/WasteLand/CompoundCharacterCommand.cpp
+	"CompoundCharacterCommand.h"
+
+1356999494 source:/home/justin/Documents/GameProjects/WasteLand/ConsumableItem.cpp
+	"ConsumableItem.h"
+
+1364846622 /home/justin/Documents/GameProjects/WasteLand/ConsumableItem.h
+	"BaseItem.h"
+	"ConsumableItemTemplate.h"
+
+1356059150 /home/justin/Documents/GameProjects/WasteLand/ConsumableItemTemplate.h
+	"BaseItemTemplate.h"
+
+1368700220 source:/home/justin/Documents/GameProjects/WasteLand/Faction.cpp
+	"Faction.h"
+	"CharacterCommand.h"
+
+1368698965 /home/justin/Documents/GameProjects/WasteLand/Faction.h
+	<list>
+
+1364194357 source:/home/justin/Documents/GameProjects/WasteLand/FactionManager.cpp
+	"FactionManager.h"
+	"FactionPlayer.h"
+	"Faction.h"
+
+1364192341 /home/justin/Documents/GameProjects/WasteLand/FactionManager.h
+	<list>
+
+1368697438 /home/justin/Documents/GameProjects/WasteLand/FactionPlayer.h
+	"Faction.h"
+	"IrrWrapper.h"
+	<list>
+	"Button.h"
+	"SoldierInventoryInterface.h"
+
+1365633985 /home/justin/Documents/GameProjects/WasteLand/SoldierInventoryInterface.h
+	"IrrWrapper.h"
+	"Button.h"
+	"ItemSlot.h"
+
+1368700535 source:/home/justin/Documents/GameProjects/WasteLand/FactionPlayer.cpp
+	"FactionPlayer.h"
+	"CharacterInstance.h"
+	"MapManager.h"
+	"CharacterInstanceSoldier.h"
+	"InstanceManager.h"
+	"CommandPathToPosition.h"
+	"CommandAttackCharacter.h"
+	"CommandPickUpItem.h"
+	"CommandHarvestBlock.h"
+
+1368342316 source:/home/justin/Documents/GameProjects/WasteLand/GameManager.cpp
+	"GameManager.h"
+	"PathPlanner.h"
+	"ItemManager.h"
+	"InstanceManager.h"
+	"FactionManager.h"
+	"Faction.h"
+	"CharacterInstance.h"
+	"CharacterInstanceSoldier.h"
+	"CharacterInstanceWorker.h"
+	"BrainNonFactionHostile.h"
+	"AnimalBrain.h"
+	"BrainSoldier.h"
+	"BrainWorker.h"
+	"CommandPathToPosition.h"
+
+1368309200 source:/home/justin/Documents/GameProjects/WasteLand/InstanceManager.cpp
+	"InstanceManager.h"
+	"BaseInstance.h"
+	"CharacterInstance.h"
+	"ProjectileInstance.h"
+	"ProjectileInstanceTemplate.h"
+	"GameManager.h"
+	"MapManager.h"
+	"CharacterInstanceTemplate.h"
+	"ItemInstance.h"
+	"ParticleInstance.h"
+	"ItemManager.h"
+	"CharacterInstanceSoldier.h"
+	"CharacterInstanceWorker.h"
+
+1364847414 /home/justin/Documents/GameProjects/WasteLand/ProjectileInstance.h
+	"IrrWrapper.h"
+	"Damage.h"
+
+1364502906 /home/justin/Documents/GameProjects/WasteLand/ProjectileInstanceTemplate.h
+	"IrrWrapper.h"
+	"Damage.h"
+	<string>
+
+1364846813 /home/justin/Documents/GameProjects/WasteLand/ParticleInstance.h
+	<string>
+	"IrrWrapper.h"
+
+1365556572 source:/home/justin/Documents/GameProjects/WasteLand/IrrWrapper.cpp
+	"IrrWrapper.h"
+	"MyEventReceiver.h"
+	<fstream>
+	<sstream>
+	<math.h>
+	"Perameters.h"
+
+1364109525 source:/home/justin/Documents/GameProjects/WasteLand/ItemInstance.cpp
+	"ItemInstance.h"
+	"GameManager.h"
+	"ItemManager.h"
+
+1365616565 source:/home/justin/Documents/GameProjects/WasteLand/ItemList.cpp
+	"ItemList.h"
+	<iostream>
+
+1368145414 source:/home/justin/Documents/GameProjects/WasteLand/ItemManager.cpp
+	"ItemManager.h"
+	"SimpleBlock.h"
+	"BlockItemTemplate.h"
+	"ProjectileWeaponItemTemplate.h"
+	"ToolItemTemplate.h"
+	"ConsumableItemTemplate.h"
+	"ArmourItemTemplate.h"
+	"AmmoItemTemplate.h"
+	"BaseItem.h"
+	"BlockItem.h"
+	"ProjectileWeaponItem.h"
+	"ToolItem.h"
+	"ConsumableItem.h"
+	"ArmourItem.h"
+	"ThrownWeaponItem.h"
+	"MeleeWeaponItem.h"
+	"AmmoItem.h"
+	<assert.h>
+
+1359676860 /home/justin/Documents/GameProjects/WasteLand/ToolItemTemplate.h
+	"BaseItemTemplate.h"
+	"Damage.h"
+
+1364264275 /home/justin/Documents/GameProjects/WasteLand/ToolItem.h
+	"BaseItem.h"
+	"ToolItemTemplate.h"
+
+1365616709 source:/home/justin/Documents/GameProjects/WasteLand/ItemSlot.cpp
+	"ItemSlot.h"
+	"IrrWrapper.h"
+	"ItemManager.h"
+	"BaseItem.h"
+
+1364936492 source:/home/justin/Documents/GameProjects/WasteLand/main.cpp
+	"IrrWrapper.h"
+	"GameManager.h"
+	"MapChunkInstance.h"
+	"Perameters.h"
+	"ItemManager.h"
+	"InstanceManager.h"
+	<iostream>
+	"MapManager.h"
+
+1365633047 source:/home/justin/Documents/GameProjects/WasteLand/MapChunkInstance.cpp
+	"MapChunkInstance.h"
+	"InstanceManager.h"
+	"GameManager.h"
+	"ItemInstance.h"
+	"ZombieInstance.h"
+	"BlockManager.h"
+	"SimpleBlock.h"
+	"ProjectileInstance.h"
+	"MessageManager.h"
+	"ItemManager.h"
+	<fstream>
+	<map>
+	<iostream>
+
+1364846976 /home/justin/Documents/GameProjects/WasteLand/ZombieInstance.h
+	"IrrWrapper.h"
+	"CharacterInstance.h"
+
+1364846976 source:/home/justin/Documents/GameProjects/WasteLand/MapManager.cpp
+	"MapManager.h"
+	"GameManager.h"
+	"PathPlanner.h"
+	"SimpleBlock.h"
+	"BlockManager.h"
+	"InstanceManager.h"
+	<iostream>
+
+1364595095 source:/home/justin/Documents/GameProjects/WasteLand/MeleeWeaponItem.cpp
+	"MeleeWeaponItem.h"
+	"MeleeWeaponItemTemplate.h"
+	"InstanceManager.h"
+	"CharacterInstance.h"
+	"MessageManager.h"
+	<iostream>
+
+1364160674 source:/home/justin/Documents/GameProjects/WasteLand/MessageManager.cpp
+	"MessageManager.h"
+	"BaseInstance.h"
+	"InstanceManager.h"
+
+1364955983 source:/home/justin/Documents/GameProjects/WasteLand/MyEventReceiver.cpp
+	"MyEventReceiver.h"
+	"IrrWrapper.h"
+
+1364906667 source:/home/justin/Documents/GameProjects/WasteLand/PathPlanner.cpp
+	"PathPlanner.h"
+	"GameManager.h"
+	<string>
+	<iostream>
+	"AStarGoalPathToPosition.h"
+	"AStarGoalPathToRandomPosition.h"
+
+1364936211 source:/home/justin/Documents/GameProjects/WasteLand/ProjectileInstance.cpp
+	"ProjectileInstance.h"
+	"Perameters.h"
+	"GameManager.h"
+	"ZombieInstance.h"
+	"CharacterInstance.h"
+	"InstanceManager.h"
+	"MessageManager.h"
+	"ProjectileInstanceTemplate.h"
+	"Damage.h"
+
+1365542227 source:/home/justin/Documents/GameProjects/WasteLand/ProjectileWeaponItem.cpp
+	"ProjectileWeaponItem.h"
+	"InstanceManager.h"
+	"CharacterInstanceSoldier.h"
+	"MessageManager.h"
+	"ItemManager.h"
+	"AmmoItem.h"
+	<iostream>
+
+1363391744 source:/home/justin/Documents/GameProjects/WasteLand/SimpleBlock.cpp
+	"SimpleBlock.h"
+	"MapManager.h"
+	"BaseBlockTemplate.h"
+
+1364109525 source:/home/justin/Documents/GameProjects/WasteLand/Socket.cpp
+	"Socket.h"
+	"ComplexBlock.h"
+
+1368147686 source:/home/justin/Documents/GameProjects/WasteLand/SoldierInventoryInterface.cpp
+	"SoldierInventoryInterface.h"
+	"CharacterInstanceSoldier.h"
+	"InstanceManager.h"
+	"ItemList.h"
+	"ItemSlot.h"
+	"ProjectileWeaponItem.h"
+	"ArmourItem.h"
+
+1364264717 source:/home/justin/Documents/GameProjects/WasteLand/ThrownWeaponItem.cpp
+	"ThrownWeaponItem.h"
+	"ThrownWeaponItemTemplate.h"
+	"InstanceManager.h"
+	"CharacterInstance.h"
+	"MessageManager.h"
+
+1360804104 source:/home/justin/Documents/GameProjects/WasteLand/ToolItem.cpp
+	"ToolItem.h"
+	"InstanceManager.h"
+	"CharacterInstance.h"
+	"MessageManager.h"
+
+1368311030 source:/home/justin/Documents/GameProjects/WasteLand/CharacterInstanceWorker.cpp
+	"CharacterInstanceWorker.h"
+
+1368309351 /home/justin/Documents/GameProjects/WasteLand/CharacterInstanceWorker.h
+	"CharacterInstance.h"
+	<queue>
+
+1368310395 source:/home/justin/Documents/GameProjects/WasteLand/BrainWorker.cpp
+	"BrainWorker.h"
+
+1368310281 /home/justin/Documents/GameProjects/WasteLand/BrainWorker.h
+	"CompoundCharacterCommand.h"
+
+1368700399 source:/home/justin/Documents/GameProjects/WasteLand/CommandHarvestBlock.cpp
+	"CommandHarvestBlock.h"
+	"CharacterInstance.h"
+	"Telegram.h"
+	"CommandPathToPosition.h"
+	"MapManager.h"
+	<iostream>
+
+1368700152 /home/justin/Documents/GameProjects/WasteLand/CommandHarvestBlock.h
+	"CompoundCharacterCommand.h"
+
+1364502627 source:/home/justin/Documents/GameProjects/WasteLandMay16/AmmoItem.cpp
+	"AmmoItem.h"
+
+1364503459 /home/justin/Documents/GameProjects/WasteLandMay16/AmmoItem.h
+	"BaseItem.h"
+	"AmmoItemTemplate.h"
+
+1365614750 /home/justin/Documents/GameProjects/WasteLandMay16/BaseItem.h
+	"BaseItemTemplate.h"
+
+1365614750 /home/justin/Documents/GameProjects/WasteLandMay16/BaseItemTemplate.h
+	"Perameters.h"
+	"IrrWrapper.h"
+	<string>
+
+1368342421 /home/justin/Documents/GameProjects/WasteLandMay16/Perameters.h
+	"IrrWrapper.h"
+
+1364936302 /home/justin/Documents/GameProjects/WasteLandMay16/IrrWrapper.h
+	<string>
+	<sstream>
+	<irrlicht.h>
+	"MyEventReceiver.h"
+
+1364904277 /home/justin/Documents/GameProjects/WasteLandMay16/MyEventReceiver.h
+	<string>
+	<sstream>
+	<irrlicht.h>
+
+1364501905 /home/justin/Documents/GameProjects/WasteLandMay16/AmmoItemTemplate.h
+	"BaseItemTemplate.h"
+	"Damage.h"
+
+1359669626 /home/justin/Documents/GameProjects/WasteLandMay16/Damage.h
+
+1364197657 source:/home/justin/Documents/GameProjects/WasteLandMay16/AnimalBrain.cpp
+	"AnimalBrain.h"
+	<iostream>
+	"CharacterInstance.h"
+	"CommandWander.h"
+
+1365623949 /home/justin/Documents/GameProjects/WasteLandMay16/AnimalBrain.h
+	"CompoundCharacterCommand.h"
+
+1364845787 /home/justin/Documents/GameProjects/WasteLandMay16/CompoundCharacterCommand.h
+	"CharacterCommand.h"
+	<list>
+
+1368700152 /home/justin/Documents/GameProjects/WasteLandMay16/CharacterCommand.h
+	"IrrWrapper.h"
+
+1368310865 /home/justin/Documents/GameProjects/WasteLandMay16/CharacterInstance.h
+	"BaseInstance.h"
+	"Perameters.h"
+	"ItemSlot.h"
+	"ItemList.h"
+
+1364846715 /home/justin/Documents/GameProjects/WasteLandMay16/BaseInstance.h
+	"IrrWrapper.h"
+	"Telegram.h"
+
+1364845786 /home/justin/Documents/GameProjects/WasteLandMay16/Telegram.h
+	<math.h>
+
+1365616636 /home/justin/Documents/GameProjects/WasteLandMay16/ItemSlot.h
+	"IrrWrapper.h"
+	"BaseItem.h"
+
+1365616565 /home/justin/Documents/GameProjects/WasteLandMay16/ItemList.h
+	"ItemSlot.h"
+	<vector>
+
+1364845786 /home/justin/Documents/GameProjects/WasteLandMay16/CommandWander.h
+	"CompoundCharacterCommand.h"
+
+1357393538 source:/home/justin/Documents/GameProjects/WasteLandMay16/ArmourItem.cpp
+	"ArmourItem.h"
+
+1365663785 /home/justin/Documents/GameProjects/WasteLandMay16/ArmourItem.h
+	"BaseItem.h"
+	"ArmourItemTemplate.h"
+
+1368147686 /home/justin/Documents/GameProjects/WasteLandMay16/ArmourItemTemplate.h
+	"BaseItemTemplate.h"
+
+1361326194 source:/home/justin/Documents/GameProjects/WasteLandMay16/AStarGoalPathToPosition.cpp
+	"AStarGoalPathToPosition.h"
+
+1365624097 /home/justin/Documents/GameProjects/WasteLandMay16/AStarGoalPathToPosition.h
+	"AStarGoalBase.h"
+	"IrrWrapper.h"
+
+1361489814 /home/justin/Documents/GameProjects/WasteLandMay16/AStarGoalBase.h
+	"IrrWrapper.h"
+
+1361491182 source:/home/justin/Documents/GameProjects/WasteLandMay16/AStarPathToRandomPosition.cpp
+	"AStarGoalPathToRandomPosition.h"
+
+1361490872 /home/justin/Documents/GameProjects/WasteLandMay16/AStarGoalPathToRandomPosition.h
+	"AStarGoalBase.h"
+	"IrrWrapper.h"
+
+1364906123 source:/home/justin/Documents/GameProjects/WasteLandMay16/BaseBlock.cpp
+	"BaseBlock.h"
+
+1364906123 /home/justin/Documents/GameProjects/WasteLandMay16/BaseBlock.h
+	"IrrWrapper.h"
+	<string>
+	"Perameters.h"
+	"BaseBlockTemplate.h"
+
+1363391762 /home/justin/Documents/GameProjects/WasteLandMay16/BaseBlockTemplate.h
+	"IrrWrapper.h"
+	<vector>
+
+1364201693 source:/home/justin/Documents/GameProjects/WasteLandMay16/BaseInstance.cpp
+	"BaseInstance.h"
+	"InstanceManager.h"
+
+1368309200 /home/justin/Documents/GameProjects/WasteLandMay16/InstanceManager.h
+	"IrrWrapper.h"
+	<map>
+	<list>
+	<vector>
+
+1356999182 source:/home/justin/Documents/GameProjects/WasteLandMay16/BaseItem.cpp
+	"BaseItem.h"
+
+1356999494 source:/home/justin/Documents/GameProjects/WasteLandMay16/BlockItem.cpp
+	"BlockItem.h"
+
+1364845893 /home/justin/Documents/GameProjects/WasteLandMay16/BlockItem.h
+	"BaseItem.h"
+	"BlockItemTemplate.h"
+
+1356057532 /home/justin/Documents/GameProjects/WasteLandMay16/BlockItemTemplate.h
+	"BaseItemTemplate.h"
+
+1365663874 source:/home/justin/Documents/GameProjects/WasteLandMay16/BlockManager.cpp
+	"BlockManager.h"
+	"SimpleBlock.h"
+	"Damage.h"
+	"ItemManager.h"
+	<iostream>
+	<assert.h>
+
+1363391744 /home/justin/Documents/GameProjects/WasteLandMay16/BlockManager.h
+	"BaseBlockTemplate.h"
+	"ComplexBlockTemplate.h"
+	"BaseBlock.h"
+	<map>
+
+1359671664 /home/justin/Documents/GameProjects/WasteLandMay16/ComplexBlockTemplate.h
+	"IrrWrapper.h"
+	"BaseBlockTemplate.h"
+	<string>
+
+1363391744 /home/justin/Documents/GameProjects/WasteLandMay16/SimpleBlock.h
+	"BaseBlock.h"
+
+1365663423 /home/justin/Documents/GameProjects/WasteLandMay16/ItemManager.h
+	"BaseItemTemplate.h"
+	"BaseItem.h"
+	<map>
+
+1364951752 source:/home/justin/Documents/GameProjects/WasteLandMay16/BrainNonFactionHostile.cpp
+	"BrainNonFactionHostile.h"
+	"CharacterInstanceSoldier.h"
+	"InstanceManager.h"
+	"CommandAttackCharacter.h"
+	"CommandWander.h"
+	<iostream>
+	<stdlib.h>
+
+1364951822 /home/justin/Documents/GameProjects/WasteLandMay16/BrainNonFactionHostile.h
+	"CompoundCharacterCommand.h"
+
+1368308436 /home/justin/Documents/GameProjects/WasteLandMay16/CharacterInstanceSoldier.h
+	"CharacterInstance.h"
+
+1364846367 /home/justin/Documents/GameProjects/WasteLandMay16/CommandAttackCharacter.h
+	"CompoundCharacterCommand.h"
+
+1368310319 source:/home/justin/Documents/GameProjects/WasteLandMay16/BrainSoldier.cpp
+	"BrainSoldier.h"
+
+1364845935 /home/justin/Documents/GameProjects/WasteLandMay16/BrainSoldier.h
+	"CompoundCharacterCommand.h"
+
+1368310395 source:/home/justin/Documents/GameProjects/WasteLandMay16/BrainWorker.cpp
+	"BrainWorker.h"
+
+1368310281 /home/justin/Documents/GameProjects/WasteLandMay16/BrainWorker.h
+	"CompoundCharacterCommand.h"
+
+1358730330 source:/home/justin/Documents/GameProjects/WasteLandMay16/Button.cpp
+	"Button.h"
+
+1364845935 /home/justin/Documents/GameProjects/WasteLandMay16/Button.h
+	"IrrWrapper.h"
+
+1364846296 source:/home/justin/Documents/GameProjects/WasteLandMay16/CharacterCommand.cpp
+	"CharacterCommand.h"
+
+1368310865 source:/home/justin/Documents/GameProjects/WasteLandMay16/CharacterInstance.cpp
+	"CharacterInstance.h"
+	"CharacterCommand.h"
+	"BrainSoldier.h"
+	"GameManager.h"
+	<iostream>
+	"InstanceManager.h"
+	"MessageManager.h"
+	"CharacterInstanceTemplate.h"
+
+1364845935 /home/justin/Documents/GameProjects/WasteLandMay16/GameManager.h
+	<vector>
+	<queue>
+	<map>
+	"MapChunkInstance.h"
+	"Perameters.h"
+	"MapManager.h"
+
+1364845935 /home/justin/Documents/GameProjects/WasteLandMay16/MapChunkInstance.h
+	"IrrWrapper.h"
+	"BaseInstance.h"
+	<string>
+	<fstream>
+
+1364845935 /home/justin/Documents/GameProjects/WasteLandMay16/MapManager.h
+	"Perameters.h"
+	"IrrWrapper.h"
+	"MapChunkInstance.h"
+	"ChunkCacheObject.h"
+	<string>
+	<vector>
+	<queue>
+	<map>
+
+1359016346 /home/justin/Documents/GameProjects/WasteLandMay16/ChunkCacheObject.h
+
+1364262724 /home/justin/Documents/GameProjects/WasteLandMay16/MessageManager.h
+	"IrrWrapper.h"
+	"Telegram.h"
+	"DamageHitMessage.h"
+	<set>
+
+1364262712 /home/justin/Documents/GameProjects/WasteLandMay16/DamageHitMessage.h
+	"Damage.h"
+	"IrrWrapper.h"
+
+1364354660 /home/justin/Documents/GameProjects/WasteLandMay16/CharacterInstanceTemplate.h
+	"IrrWrapper.h"
+	"Damage.h"
+	<string>
+
+1368309822 source:/home/justin/Documents/GameProjects/WasteLandMay16/CharacterInstanceSoldier.cpp
+	"CharacterInstanceSoldier.h"
+	"InstanceManager.h"
+	"MessageManager.h"
+	"MeleeWeaponItem.h"
+	"ThrownWeaponItem.h"
+	"ProjectileWeaponItem.h"
+	"CharacterInstanceTemplate.h"
+	"CompoundCharacterCommand.h"
+	"ArmourItem.h"
+	<iostream>
+
+1364596833 /home/justin/Documents/GameProjects/WasteLandMay16/MeleeWeaponItem.h
+	"BaseItem.h"
+	"MeleeWeaponItemTemplate.h"
+
+1364264463 /home/justin/Documents/GameProjects/WasteLandMay16/MeleeWeaponItemTemplate.h
+	"BaseItemTemplate.h"
+	"Damage.h"
+
+1364274829 /home/justin/Documents/GameProjects/WasteLandMay16/ThrownWeaponItem.h
+	"BaseItem.h"
+	"ThrownWeaponItemTemplate.h"
+
+1364264737 /home/justin/Documents/GameProjects/WasteLandMay16/ThrownWeaponItemTemplate.h
+	"BaseItemTemplate.h"
+	"Damage.h"
+
+1364902923 /home/justin/Documents/GameProjects/WasteLandMay16/ProjectileWeaponItem.h
+	"BaseItem.h"
+	"ProjectileWeaponItemTemplate.h"
+
+1364503944 /home/justin/Documents/GameProjects/WasteLandMay16/ProjectileWeaponItemTemplate.h
+	"BaseItemTemplate.h"
+
+1368311030 source:/home/justin/Documents/GameProjects/WasteLandMay16/CharacterInstanceWorker.cpp
+	"CharacterInstanceWorker.h"
+
+1368309351 /home/justin/Documents/GameProjects/WasteLandMay16/CharacterInstanceWorker.h
+	"CharacterInstance.h"
+	<queue>
+
+1359016346 source:/home/justin/Documents/GameProjects/WasteLandMay16/ChunkCacheObject.cpp
+	"ChunkCacheObject.h"
+	"MapChunkInstance.h"
+
+1364951639 source:/home/justin/Documents/GameProjects/WasteLandMay16/CommandAttackCharacter.cpp
+	"CommandAttackCharacter.h"
+	"CharacterInstance.h"
+	"Telegram.h"
+	"InstanceManager.h"
+	"CommandPathToCharacter.h"
+	"CharacterInstanceSoldier.h"
+	<iostream>
+
+1364846368 /home/justin/Documents/GameProjects/WasteLandMay16/CommandPathToCharacter.h
+	"CompoundCharacterCommand.h"
+
+1364197657 source:/home/justin/Documents/GameProjects/WasteLandMay16/CommandIdle.cpp
+	"CommandIdle.h"
+	"CharacterInstance.h"
+
+1364846367 /home/justin/Documents/GameProjects/WasteLandMay16/CommandIdle.h
+	"CharacterCommand.h"
+
+1365624097 source:/home/justin/Documents/GameProjects/WasteLandMay16/CommandMoveToPosition.cpp
+	"CommandMoveToPosition.h"
+	"CharacterInstance.h"
+
+1365624042 /home/justin/Documents/GameProjects/WasteLandMay16/CommandMoveToPosition.h
+	"CharacterCommand.h"
+
+1364197657 source:/home/justin/Documents/GameProjects/WasteLandMay16/CommandMoveToRandomPosition.cpp
+	"CommandMoveToRandomPosition.h"
+	"CommandMoveToPosition.h"
+	"PathPlanner.h"
+	"CharacterInstance.h"
+
+1364846499 /home/justin/Documents/GameProjects/WasteLandMay16/CommandMoveToRandomPosition.h
+	"CompoundCharacterCommand.h"
+
+1361771850 /home/justin/Documents/GameProjects/WasteLandMay16/PathPlanner.h
+	"IrrWrapper.h"
+	"AStarGoalBase.h"
+	<list>
+	<vector>
+
+1364428571 source:/home/justin/Documents/GameProjects/WasteLandMay16/CommandPathToCharacter.cpp
+	"CommandPathToCharacter.h"
+	"CharacterInstance.h"
+	"Telegram.h"
+	"InstanceManager.h"
+	"CommandPathToPosition.h"
+	<iostream>
+
+1365624097 /home/justin/Documents/GameProjects/WasteLandMay16/CommandPathToPosition.h
+	"CompoundCharacterCommand.h"
+
+1365624042 source:/home/justin/Documents/GameProjects/WasteLandMay16/CommandPathToPosition.cpp
+	"CommandPathToPosition.h"
+	"CharacterInstance.h"
+	"CommandMoveToPosition.h"
+	"PathPlanner.h"
+	<iostream>
+
+1365625311 source:/home/justin/Documents/GameProjects/WasteLandMay16/CommandPickUpItem.cpp
+	"CommandPickUpItem.h"
+	"CharacterInstanceSoldier.h"
+	"ItemInstance.h"
+	"InstanceManager.h"
+	"CommandPathToPosition.h"
+	<iostream>
+
+1365623811 /home/justin/Documents/GameProjects/WasteLandMay16/CommandPickUpItem.h
+	"CompoundCharacterCommand.h"
+
+1365614750 /home/justin/Documents/GameProjects/WasteLandMay16/ItemInstance.h
+	"BaseInstance.h"
+	"BaseItem.h"
+
+1364596236 source:/home/justin/Documents/GameProjects/WasteLandMay16/CommandWander.cpp
+	"CommandWander.h"
+	"CharacterInstance.h"
+	"CommandMoveToRandomPosition.h"
+	"CommandIdle.h"
+
+1359677516 source:/home/justin/Documents/GameProjects/WasteLandMay16/ComplexBlock.cpp
+	"ComplexBlock.h"
+	"ComplexBlockTemplate.h"
+
+1359677490 /home/justin/Documents/GameProjects/WasteLandMay16/ComplexBlock.h
+	"BaseBlock.h"
+	"Socket.h"
+
+1352085758 /home/justin/Documents/GameProjects/WasteLandMay16/Socket.h
+	"IrrWrapper.h"
+
+1346283524 source:/home/justin/Documents/GameProjects/WasteLandMay16/CompoundCharacterCommand.cpp
+	"CompoundCharacterCommand.h"
+
+1356999494 source:/home/justin/Documents/GameProjects/WasteLandMay16/ConsumableItem.cpp
+	"ConsumableItem.h"
+
+1364846622 /home/justin/Documents/GameProjects/WasteLandMay16/ConsumableItem.h
+	"BaseItem.h"
+	"ConsumableItemTemplate.h"
+
+1356059150 /home/justin/Documents/GameProjects/WasteLandMay16/ConsumableItemTemplate.h
+	"BaseItemTemplate.h"
+
+1368700220 source:/home/justin/Documents/GameProjects/WasteLandMay16/Faction.cpp
+	"Faction.h"
+	"CharacterCommand.h"
+
+1368698965 /home/justin/Documents/GameProjects/WasteLandMay16/Faction.h
+	<list>
+
+1364194357 source:/home/justin/Documents/GameProjects/WasteLandMay16/FactionManager.cpp
+	"FactionManager.h"
+	"FactionPlayer.h"
+	"Faction.h"
+
+1364192341 /home/justin/Documents/GameProjects/WasteLandMay16/FactionManager.h
+	<list>
+
+1368697438 /home/justin/Documents/GameProjects/WasteLandMay16/FactionPlayer.h
+	"Faction.h"
+	"IrrWrapper.h"
+	<list>
+	"Button.h"
+	"SoldierInventoryInterface.h"
+
+1365633985 /home/justin/Documents/GameProjects/WasteLandMay16/SoldierInventoryInterface.h
+	"IrrWrapper.h"
+	"Button.h"
+	"ItemSlot.h"
+
+1368700535 source:/home/justin/Documents/GameProjects/WasteLandMay16/FactionPlayer.cpp
+	"FactionPlayer.h"
+	"CharacterInstance.h"
+	"MapManager.h"
+	"CharacterInstanceSoldier.h"
+	"InstanceManager.h"
+	"CommandPathToPosition.h"
+	"CommandAttackCharacter.h"
+	"CommandPickUpItem.h"
+	"CommandHarvestBlock.h"
+
+1368700152 /home/justin/Documents/GameProjects/WasteLandMay16/CommandHarvestBlock.h
+	"CompoundCharacterCommand.h"
+
+1368342316 source:/home/justin/Documents/GameProjects/WasteLandMay16/GameManager.cpp
+	"GameManager.h"
+	"PathPlanner.h"
+	"ItemManager.h"
+	"InstanceManager.h"
+	"FactionManager.h"
+	"Faction.h"
+	"CharacterInstance.h"
+	"CharacterInstanceSoldier.h"
+	"CharacterInstanceWorker.h"
+	"BrainNonFactionHostile.h"
+	"AnimalBrain.h"
+	"BrainSoldier.h"
+	"BrainWorker.h"
+	"CommandPathToPosition.h"
+
+1368309200 source:/home/justin/Documents/GameProjects/WasteLandMay16/InstanceManager.cpp
+	"InstanceManager.h"
+	"BaseInstance.h"
+	"CharacterInstance.h"
+	"ProjectileInstance.h"
+	"ProjectileInstanceTemplate.h"
+	"GameManager.h"
+	"MapManager.h"
+	"CharacterInstanceTemplate.h"
+	"ItemInstance.h"
+	"ParticleInstance.h"
+	"ItemManager.h"
+	"CharacterInstanceSoldier.h"
+	"CharacterInstanceWorker.h"
+
+1364847414 /home/justin/Documents/GameProjects/WasteLandMay16/ProjectileInstance.h
+	"IrrWrapper.h"
+	"Damage.h"
+
+1364502906 /home/justin/Documents/GameProjects/WasteLandMay16/ProjectileInstanceTemplate.h
+	"IrrWrapper.h"
+	"Damage.h"
+	<string>
+
+1364846813 /home/justin/Documents/GameProjects/WasteLandMay16/ParticleInstance.h
+	<string>
+	"IrrWrapper.h"
+
+1365556572 source:/home/justin/Documents/GameProjects/WasteLandMay16/IrrWrapper.cpp
+	"IrrWrapper.h"
+	"MyEventReceiver.h"
+	<fstream>
+	<sstream>
+	<math.h>
+	"Perameters.h"
+
+1364109525 source:/home/justin/Documents/GameProjects/WasteLandMay16/ItemInstance.cpp
+	"ItemInstance.h"
+	"GameManager.h"
+	"ItemManager.h"
+
+1365616565 source:/home/justin/Documents/GameProjects/WasteLandMay16/ItemList.cpp
+	"ItemList.h"
+	<iostream>
+
+1368145414 source:/home/justin/Documents/GameProjects/WasteLandMay16/ItemManager.cpp
+	"ItemManager.h"
+	"SimpleBlock.h"
+	"BlockItemTemplate.h"
+	"ProjectileWeaponItemTemplate.h"
+	"ToolItemTemplate.h"
+	"ConsumableItemTemplate.h"
+	"ArmourItemTemplate.h"
+	"AmmoItemTemplate.h"
+	"BaseItem.h"
+	"BlockItem.h"
+	"ProjectileWeaponItem.h"
+	"ToolItem.h"
+	"ConsumableItem.h"
+	"ArmourItem.h"
+	"ThrownWeaponItem.h"
+	"MeleeWeaponItem.h"
+	"AmmoItem.h"
+	<assert.h>
+
+1359676860 /home/justin/Documents/GameProjects/WasteLandMay16/ToolItemTemplate.h
+	"BaseItemTemplate.h"
+	"Damage.h"
+
+1364264275 /home/justin/Documents/GameProjects/WasteLandMay16/ToolItem.h
+	"BaseItem.h"
+	"ToolItemTemplate.h"
+
+1365616709 source:/home/justin/Documents/GameProjects/WasteLandMay16/ItemSlot.cpp
+	"ItemSlot.h"
+	"IrrWrapper.h"
+	"ItemManager.h"
+	"BaseItem.h"
+
+1364936492 source:/home/justin/Documents/GameProjects/WasteLandMay16/main.cpp
+	"IrrWrapper.h"
+	"GameManager.h"
+	"MapChunkInstance.h"
+	"Perameters.h"
+	"ItemManager.h"
+	"InstanceManager.h"
+	<iostream>
+	"MapManager.h"
+
+1365633047 source:/home/justin/Documents/GameProjects/WasteLandMay16/MapChunkInstance.cpp
+	"MapChunkInstance.h"
+	"InstanceManager.h"
+	"GameManager.h"
+	"ItemInstance.h"
+	"ZombieInstance.h"
+	"BlockManager.h"
+	"SimpleBlock.h"
+	"ProjectileInstance.h"
+	"MessageManager.h"
+	"ItemManager.h"
+	<fstream>
+	<map>
+	<iostream>
+
+1364846976 /home/justin/Documents/GameProjects/WasteLandMay16/ZombieInstance.h
+	"IrrWrapper.h"
+	"CharacterInstance.h"
+
+1364846976 source:/home/justin/Documents/GameProjects/WasteLandMay16/MapManager.cpp
+	"MapManager.h"
+	"GameManager.h"
+	"PathPlanner.h"
+	"SimpleBlock.h"
+	"BlockManager.h"
+	"InstanceManager.h"
+	<iostream>
+
+1364595095 source:/home/justin/Documents/GameProjects/WasteLandMay16/MeleeWeaponItem.cpp
+	"MeleeWeaponItem.h"
+	"MeleeWeaponItemTemplate.h"
+	"InstanceManager.h"
+	"CharacterInstance.h"
+	"MessageManager.h"
+	<iostream>
+
+1364160674 source:/home/justin/Documents/GameProjects/WasteLandMay16/MessageManager.cpp
+	"MessageManager.h"
+	"BaseInstance.h"
+	"InstanceManager.h"
+
+1364955983 source:/home/justin/Documents/GameProjects/WasteLandMay16/MyEventReceiver.cpp
+	"MyEventReceiver.h"
+	"IrrWrapper.h"
+
+1364906667 source:/home/justin/Documents/GameProjects/WasteLandMay16/PathPlanner.cpp
+	"PathPlanner.h"
+	"GameManager.h"
+	<string>
+	<iostream>
+	"AStarGoalPathToPosition.h"
+	"AStarGoalPathToRandomPosition.h"
+
+1364936211 source:/home/justin/Documents/GameProjects/WasteLandMay16/ProjectileInstance.cpp
+	"ProjectileInstance.h"
+	"Perameters.h"
+	"GameManager.h"
+	"ZombieInstance.h"
+	"CharacterInstance.h"
+	"InstanceManager.h"
+	"MessageManager.h"
+	"ProjectileInstanceTemplate.h"
+	"Damage.h"
+
+1365542227 source:/home/justin/Documents/GameProjects/WasteLandMay16/ProjectileWeaponItem.cpp
+	"ProjectileWeaponItem.h"
+	"InstanceManager.h"
+	"CharacterInstanceSoldier.h"
+	"MessageManager.h"
+	"ItemManager.h"
+	"AmmoItem.h"
+	<iostream>
+
+1363391744 source:/home/justin/Documents/GameProjects/WasteLandMay16/SimpleBlock.cpp
+	"SimpleBlock.h"
+	"MapManager.h"
+	"BaseBlockTemplate.h"
+
+1364109525 source:/home/justin/Documents/GameProjects/WasteLandMay16/Socket.cpp
+	"Socket.h"
+	"ComplexBlock.h"
+
+1368147686 source:/home/justin/Documents/GameProjects/WasteLandMay16/SoldierInventoryInterface.cpp
+	"SoldierInventoryInterface.h"
+	"CharacterInstanceSoldier.h"
+	"InstanceManager.h"
+	"ItemList.h"
+	"ItemSlot.h"
+	"ProjectileWeaponItem.h"
+	"ArmourItem.h"
+
+1364264717 source:/home/justin/Documents/GameProjects/WasteLandMay16/ThrownWeaponItem.cpp
+	"ThrownWeaponItem.h"
+	"ThrownWeaponItemTemplate.h"
+	"InstanceManager.h"
+	"CharacterInstance.h"
+	"MessageManager.h"
+
+1360804104 source:/home/justin/Documents/GameProjects/WasteLandMay16/ToolItem.cpp
+	"ToolItem.h"
+	"InstanceManager.h"
+	"CharacterInstance.h"
+	"MessageManager.h"
+
+1364502627 source:/home/justin/Documents/GameProjects/WasteLand(May16)/AmmoItem.cpp
+	"AmmoItem.h"
+
+1364503459 /home/justin/Documents/GameProjects/WasteLand(May16)/AmmoItem.h
+	"BaseItem.h"
+	"AmmoItemTemplate.h"
+
+1365614750 /home/justin/Documents/GameProjects/WasteLand(May16)/BaseItem.h
+	"BaseItemTemplate.h"
+
+1365614750 /home/justin/Documents/GameProjects/WasteLand(May16)/BaseItemTemplate.h
+	"Perameters.h"
+	"IrrWrapper.h"
+	<string>
+
+1368342421 /home/justin/Documents/GameProjects/WasteLand(May16)/Perameters.h
+	"IrrWrapper.h"
+
+1364936302 /home/justin/Documents/GameProjects/WasteLand(May16)/IrrWrapper.h
+	<string>
+	<sstream>
+	<irrlicht.h>
+	"MyEventReceiver.h"
+
+1364904277 /home/justin/Documents/GameProjects/WasteLand(May16)/MyEventReceiver.h
+	<string>
+	<sstream>
+	<irrlicht.h>
+
+1364501905 /home/justin/Documents/GameProjects/WasteLand(May16)/AmmoItemTemplate.h
+	"BaseItemTemplate.h"
+	"Damage.h"
+
+1359669626 /home/justin/Documents/GameProjects/WasteLand(May16)/Damage.h
+
+1364197657 source:/home/justin/Documents/GameProjects/WasteLand(May16)/AnimalBrain.cpp
+	"AnimalBrain.h"
+	<iostream>
+	"CharacterInstance.h"
+	"CommandWander.h"
+
+1365623949 /home/justin/Documents/GameProjects/WasteLand(May16)/AnimalBrain.h
+	"CompoundCharacterCommand.h"
+
+1364845787 /home/justin/Documents/GameProjects/WasteLand(May16)/CompoundCharacterCommand.h
+	"CharacterCommand.h"
+	<list>
+
+1368700152 /home/justin/Documents/GameProjects/WasteLand(May16)/CharacterCommand.h
+	"IrrWrapper.h"
+
+1364845786 /home/justin/Documents/GameProjects/WasteLand(May16)/CommandWander.h
+	"CompoundCharacterCommand.h"
+
+1357393538 source:/home/justin/Documents/GameProjects/WasteLand(May16)/ArmourItem.cpp
+	"ArmourItem.h"
+
+1365663785 /home/justin/Documents/GameProjects/WasteLand(May16)/ArmourItem.h
+	"BaseItem.h"
+	"ArmourItemTemplate.h"
+
+1368147686 /home/justin/Documents/GameProjects/WasteLand(May16)/ArmourItemTemplate.h
+	"BaseItemTemplate.h"
+
+1361326194 source:/home/justin/Documents/GameProjects/WasteLand(May16)/AStarGoalPathToPosition.cpp
+	"AStarGoalPathToPosition.h"
+
+1365624097 /home/justin/Documents/GameProjects/WasteLand(May16)/AStarGoalPathToPosition.h
+	"AStarGoalBase.h"
+	"IrrWrapper.h"
+
+1361489814 /home/justin/Documents/GameProjects/WasteLand(May16)/AStarGoalBase.h
+	"IrrWrapper.h"
+
+1361491182 source:/home/justin/Documents/GameProjects/WasteLand(May16)/AStarPathToRandomPosition.cpp
+	"AStarGoalPathToRandomPosition.h"
+
+1361490872 /home/justin/Documents/GameProjects/WasteLand(May16)/AStarGoalPathToRandomPosition.h
+	"AStarGoalBase.h"
+	"IrrWrapper.h"
+
+1364906123 source:/home/justin/Documents/GameProjects/WasteLand(May16)/BaseBlock.cpp
+	"BaseBlock.h"
+
+1364906123 /home/justin/Documents/GameProjects/WasteLand(May16)/BaseBlock.h
+	"IrrWrapper.h"
+	<string>
+	"Perameters.h"
+	"BaseBlockTemplate.h"
+
+1363391762 /home/justin/Documents/GameProjects/WasteLand(May16)/BaseBlockTemplate.h
+	"IrrWrapper.h"
+	<vector>
+
+1364201693 source:/home/justin/Documents/GameProjects/WasteLand(May16)/BaseInstance.cpp
+	"BaseInstance.h"
+	"InstanceManager.h"
+
+1368756148 /home/justin/Documents/GameProjects/WasteLand(May16)/BaseInstance.h
+	"IrrWrapper.h"
+	"Telegram.h"
+
+1364845786 /home/justin/Documents/GameProjects/WasteLand(May16)/Telegram.h
+	<math.h>
+
+1368309200 /home/justin/Documents/GameProjects/WasteLand(May16)/InstanceManager.h
+	"IrrWrapper.h"
+	<map>
+	<list>
+	<vector>
+
+1356999182 source:/home/justin/Documents/GameProjects/WasteLand(May16)/BaseItem.cpp
+	"BaseItem.h"
+
+1356999494 source:/home/justin/Documents/GameProjects/WasteLand(May16)/BlockItem.cpp
+	"BlockItem.h"
+
+1364845893 /home/justin/Documents/GameProjects/WasteLand(May16)/BlockItem.h
+	"BaseItem.h"
+	"BlockItemTemplate.h"
+
+1356057532 /home/justin/Documents/GameProjects/WasteLand(May16)/BlockItemTemplate.h
+	"BaseItemTemplate.h"
+
+1365663874 source:/home/justin/Documents/GameProjects/WasteLand(May16)/BlockManager.cpp
+	"BlockManager.h"
+	"SimpleBlock.h"
+	"Damage.h"
+	"ItemManager.h"
+	<iostream>
+	<assert.h>
+
+1363391744 /home/justin/Documents/GameProjects/WasteLand(May16)/BlockManager.h
+	"BaseBlockTemplate.h"
+	"ComplexBlockTemplate.h"
+	"BaseBlock.h"
+	<map>
+
+1359671664 /home/justin/Documents/GameProjects/WasteLand(May16)/ComplexBlockTemplate.h
+	"IrrWrapper.h"
+	"BaseBlockTemplate.h"
+	<string>
+
+1363391744 /home/justin/Documents/GameProjects/WasteLand(May16)/SimpleBlock.h
+	"BaseBlock.h"
+
+1365663423 /home/justin/Documents/GameProjects/WasteLand(May16)/ItemManager.h
+	"BaseItemTemplate.h"
+	"BaseItem.h"
+	<map>
+
+1364951752 source:/home/justin/Documents/GameProjects/WasteLand(May16)/BrainNonFactionHostile.cpp
+	"BrainNonFactionHostile.h"
+	"CharacterInstanceSoldier.h"
+	"InstanceManager.h"
+	"CommandAttackCharacter.h"
+	"CommandWander.h"
+	<iostream>
+	<stdlib.h>
+
+1364951822 /home/justin/Documents/GameProjects/WasteLand(May16)/BrainNonFactionHostile.h
+	"CompoundCharacterCommand.h"
+
+1364846367 /home/justin/Documents/GameProjects/WasteLand(May16)/CommandAttackCharacter.h
+	"CompoundCharacterCommand.h"
+
+1368310319 source:/home/justin/Documents/GameProjects/WasteLand(May16)/BrainSoldier.cpp
+	"BrainSoldier.h"
+
+1364845935 /home/justin/Documents/GameProjects/WasteLand(May16)/BrainSoldier.h
+	"CompoundCharacterCommand.h"
+
+1368310395 source:/home/justin/Documents/GameProjects/WasteLand(May16)/BrainWorker.cpp
+	"BrainWorker.h"
+
+1368310281 /home/justin/Documents/GameProjects/WasteLand(May16)/BrainWorker.h
+	"CompoundCharacterCommand.h"
+
+1358730330 source:/home/justin/Documents/GameProjects/WasteLand(May16)/Button.cpp
+	"Button.h"
+
+1364845935 /home/justin/Documents/GameProjects/WasteLand(May16)/Button.h
+	"IrrWrapper.h"
+
+1364846296 source:/home/justin/Documents/GameProjects/WasteLand(May16)/CharacterCommand.cpp
+	"CharacterCommand.h"
+
+1359016346 source:/home/justin/Documents/GameProjects/WasteLand(May16)/ChunkCacheObject.cpp
+	"ChunkCacheObject.h"
+	"MapChunkInstance.h"
+
+1359016346 /home/justin/Documents/GameProjects/WasteLand(May16)/ChunkCacheObject.h
+
+1364845935 /home/justin/Documents/GameProjects/WasteLand(May16)/MapChunkInstance.h
+	"IrrWrapper.h"
+	"BaseInstance.h"
+	<string>
+	<fstream>
+
+1364951639 source:/home/justin/Documents/GameProjects/WasteLand(May16)/CommandAttackCharacter.cpp
+	"CommandAttackCharacter.h"
+	"CharacterInstance.h"
+	"Telegram.h"
+	"InstanceManager.h"
+	"CommandPathToCharacter.h"
+	"CharacterInstanceSoldier.h"
+	<iostream>
+
+1364846368 /home/justin/Documents/GameProjects/WasteLand(May16)/CommandPathToCharacter.h
+	"CompoundCharacterCommand.h"
+
+1368700799 source:/home/justin/Documents/GameProjects/WasteLand(May16)/CommandHarvestBlock.cpp
+	"CommandHarvestBlock.h"
+	"CharacterInstance.h"
+	"Telegram.h"
+	"CommandPathToPosition.h"
+	"MapManager.h"
+	<iostream>
+
+1368700152 /home/justin/Documents/GameProjects/WasteLand(May16)/CommandHarvestBlock.h
+	"CompoundCharacterCommand.h"
+
+1365624097 /home/justin/Documents/GameProjects/WasteLand(May16)/CommandPathToPosition.h
+	"CompoundCharacterCommand.h"
+
+1364845935 /home/justin/Documents/GameProjects/WasteLand(May16)/MapManager.h
+	"Perameters.h"
+	"IrrWrapper.h"
+	"MapChunkInstance.h"
+	"ChunkCacheObject.h"
+	<string>
+	<vector>
+	<queue>
+	<map>
+
+1364197657 source:/home/justin/Documents/GameProjects/WasteLand(May16)/CommandIdle.cpp
+	"CommandIdle.h"
+	"CharacterInstance.h"
+
+1364846367 /home/justin/Documents/GameProjects/WasteLand(May16)/CommandIdle.h
+	"CharacterCommand.h"
+
+1365624097 source:/home/justin/Documents/GameProjects/WasteLand(May16)/CommandMoveToPosition.cpp
+	"CommandMoveToPosition.h"
+	"CharacterInstance.h"
+
+1365624042 /home/justin/Documents/GameProjects/WasteLand(May16)/CommandMoveToPosition.h
+	"CharacterCommand.h"
+
+1364197657 source:/home/justin/Documents/GameProjects/WasteLand(May16)/CommandMoveToRandomPosition.cpp
+	"CommandMoveToRandomPosition.h"
+	"CommandMoveToPosition.h"
+	"PathPlanner.h"
+	"CharacterInstance.h"
+
+1364846499 /home/justin/Documents/GameProjects/WasteLand(May16)/CommandMoveToRandomPosition.h
+	"CompoundCharacterCommand.h"
+
+1361771850 /home/justin/Documents/GameProjects/WasteLand(May16)/PathPlanner.h
+	"IrrWrapper.h"
+	"AStarGoalBase.h"
+	<list>
+	<vector>
+
+1364428571 source:/home/justin/Documents/GameProjects/WasteLand(May16)/CommandPathToCharacter.cpp
+	"CommandPathToCharacter.h"
+	"CharacterInstance.h"
+	"Telegram.h"
+	"InstanceManager.h"
+	"CommandPathToPosition.h"
+	<iostream>
+
+1365624042 source:/home/justin/Documents/GameProjects/WasteLand(May16)/CommandPathToPosition.cpp
+	"CommandPathToPosition.h"
+	"CharacterInstance.h"
+	"CommandMoveToPosition.h"
+	"PathPlanner.h"
+	<iostream>
+
+1365625311 source:/home/justin/Documents/GameProjects/WasteLand(May16)/CommandPickUpItem.cpp
+	"CommandPickUpItem.h"
+	"CharacterInstanceSoldier.h"
+	"ItemInstance.h"
+	"InstanceManager.h"
+	"CommandPathToPosition.h"
+	<iostream>
+
+1365623811 /home/justin/Documents/GameProjects/WasteLand(May16)/CommandPickUpItem.h
+	"CompoundCharacterCommand.h"
+
+1365614750 /home/justin/Documents/GameProjects/WasteLand(May16)/ItemInstance.h
+	"BaseInstance.h"
+	"BaseItem.h"
+
+1364596236 source:/home/justin/Documents/GameProjects/WasteLand(May16)/CommandWander.cpp
+	"CommandWander.h"
+	"CharacterInstance.h"
+	"CommandMoveToRandomPosition.h"
+	"CommandIdle.h"
+
+1359677516 source:/home/justin/Documents/GameProjects/WasteLand(May16)/ComplexBlock.cpp
+	"ComplexBlock.h"
+	"ComplexBlockTemplate.h"
+
+1359677490 /home/justin/Documents/GameProjects/WasteLand(May16)/ComplexBlock.h
+	"BaseBlock.h"
+	"Socket.h"
+
+1352085758 /home/justin/Documents/GameProjects/WasteLand(May16)/Socket.h
+	"IrrWrapper.h"
+
+1346283524 source:/home/justin/Documents/GameProjects/WasteLand(May16)/CompoundCharacterCommand.cpp
+	"CompoundCharacterCommand.h"
+
+1356999494 source:/home/justin/Documents/GameProjects/WasteLand(May16)/ConsumableItem.cpp
+	"ConsumableItem.h"
+
+1364846622 /home/justin/Documents/GameProjects/WasteLand(May16)/ConsumableItem.h
+	"BaseItem.h"
+	"ConsumableItemTemplate.h"
+
+1356059150 /home/justin/Documents/GameProjects/WasteLand(May16)/ConsumableItemTemplate.h
+	"BaseItemTemplate.h"
+
+1368700220 source:/home/justin/Documents/GameProjects/WasteLand(May16)/Faction.cpp
+	"Faction.h"
+	"CharacterCommand.h"
+
+1368698965 /home/justin/Documents/GameProjects/WasteLand(May16)/Faction.h
+	<list>
+
+1364194357 source:/home/justin/Documents/GameProjects/WasteLand(May16)/FactionManager.cpp
+	"FactionManager.h"
+	"FactionPlayer.h"
+	"Faction.h"
+
+1364192341 /home/justin/Documents/GameProjects/WasteLand(May16)/FactionManager.h
+	<list>
+
+1368756015 /home/justin/Documents/GameProjects/WasteLand(May16)/FactionPlayer.h
+	"Faction.h"
+	"IrrWrapper.h"
+	<list>
+	"Button.h"
+	"SoldierInventoryInterface.h"
+
+1365633985 /home/justin/Documents/GameProjects/WasteLand(May16)/SoldierInventoryInterface.h
+	"IrrWrapper.h"
+	"Button.h"
+	"ItemSlot.h"
+
+1365616636 /home/justin/Documents/GameProjects/WasteLand(May16)/ItemSlot.h
+	"IrrWrapper.h"
+	"BaseItem.h"
+
+1368700535 source:/home/justin/Documents/GameProjects/WasteLand(May16)/FactionPlayer.cpp
+	"FactionPlayer.h"
+	"CharacterInstance.h"
+	"MapManager.h"
+	"CharacterInstanceSoldier.h"
+	"InstanceManager.h"
+	"CommandPathToPosition.h"
+	"CommandAttackCharacter.h"
+	"CommandPickUpItem.h"
+	"CommandHarvestBlock.h"
+
+1368342316 source:/home/justin/Documents/GameProjects/WasteLand(May16)/GameManager.cpp
+	"GameManager.h"
+	"PathPlanner.h"
+	"ItemManager.h"
+	"InstanceManager.h"
+	"FactionManager.h"
+	"Faction.h"
+	"CharacterInstance.h"
+	"CharacterInstanceSoldier.h"
+	"CharacterInstanceWorker.h"
+	"BrainNonFactionHostile.h"
+	"AnimalBrain.h"
+	"BrainSoldier.h"
+	"BrainWorker.h"
+	"CommandPathToPosition.h"
+
+1364845935 /home/justin/Documents/GameProjects/WasteLand(May16)/GameManager.h
+	<vector>
+	<queue>
+	<map>
+	"MapChunkInstance.h"
+	"Perameters.h"
+	"MapManager.h"
+
+1368309200 source:/home/justin/Documents/GameProjects/WasteLand(May16)/InstanceManager.cpp
+	"InstanceManager.h"
+	"BaseInstance.h"
+	"CharacterInstance.h"
+	"ProjectileInstance.h"
+	"ProjectileInstanceTemplate.h"
+	"GameManager.h"
+	"MapManager.h"
+	"CharacterInstanceTemplate.h"
+	"ItemInstance.h"
+	"ParticleInstance.h"
+	"ItemManager.h"
+	"CharacterInstanceSoldier.h"
+	"CharacterInstanceWorker.h"
+
+1364847414 /home/justin/Documents/GameProjects/WasteLand(May16)/ProjectileInstance.h
+	"IrrWrapper.h"
+	"Damage.h"
+
+1364502906 /home/justin/Documents/GameProjects/WasteLand(May16)/ProjectileInstanceTemplate.h
+	"IrrWrapper.h"
+	"Damage.h"
+	<string>
+
+1364354660 /home/justin/Documents/GameProjects/WasteLand(May16)/CharacterInstanceTemplate.h
+	"IrrWrapper.h"
+	"Damage.h"
+	<string>
+
+1364846813 /home/justin/Documents/GameProjects/WasteLand(May16)/ParticleInstance.h
+	<string>
+	"IrrWrapper.h"
+
+1365556572 source:/home/justin/Documents/GameProjects/WasteLand(May16)/IrrWrapper.cpp
+	"IrrWrapper.h"
+	"MyEventReceiver.h"
+	<fstream>
+	<sstream>
+	<math.h>
+	"Perameters.h"
+
+1364109525 source:/home/justin/Documents/GameProjects/WasteLand(May16)/ItemInstance.cpp
+	"ItemInstance.h"
+	"GameManager.h"
+	"ItemManager.h"
+
+1365616565 source:/home/justin/Documents/GameProjects/WasteLand(May16)/ItemList.cpp
+	"ItemList.h"
+	<iostream>
+
+1365616565 /home/justin/Documents/GameProjects/WasteLand(May16)/ItemList.h
+	"ItemSlot.h"
+	<vector>
+
+1368145414 source:/home/justin/Documents/GameProjects/WasteLand(May16)/ItemManager.cpp
+	"ItemManager.h"
+	"SimpleBlock.h"
+	"BlockItemTemplate.h"
+	"ProjectileWeaponItemTemplate.h"
+	"ToolItemTemplate.h"
+	"ConsumableItemTemplate.h"
+	"ArmourItemTemplate.h"
+	"AmmoItemTemplate.h"
+	"BaseItem.h"
+	"BlockItem.h"
+	"ProjectileWeaponItem.h"
+	"ToolItem.h"
+	"ConsumableItem.h"
+	"ArmourItem.h"
+	"ThrownWeaponItem.h"
+	"MeleeWeaponItem.h"
+	"AmmoItem.h"
+	<assert.h>
+
+1364503944 /home/justin/Documents/GameProjects/WasteLand(May16)/ProjectileWeaponItemTemplate.h
+	"BaseItemTemplate.h"
+
+1359676860 /home/justin/Documents/GameProjects/WasteLand(May16)/ToolItemTemplate.h
+	"BaseItemTemplate.h"
+	"Damage.h"
+
+1364902923 /home/justin/Documents/GameProjects/WasteLand(May16)/ProjectileWeaponItem.h
+	"BaseItem.h"
+	"ProjectileWeaponItemTemplate.h"
+
+1364264275 /home/justin/Documents/GameProjects/WasteLand(May16)/ToolItem.h
+	"BaseItem.h"
+	"ToolItemTemplate.h"
+
+1364274829 /home/justin/Documents/GameProjects/WasteLand(May16)/ThrownWeaponItem.h
+	"BaseItem.h"
+	"ThrownWeaponItemTemplate.h"
+
+1364264737 /home/justin/Documents/GameProjects/WasteLand(May16)/ThrownWeaponItemTemplate.h
+	"BaseItemTemplate.h"
+	"Damage.h"
+
+1364596833 /home/justin/Documents/GameProjects/WasteLand(May16)/MeleeWeaponItem.h
+	"BaseItem.h"
+	"MeleeWeaponItemTemplate.h"
+
+1364264463 /home/justin/Documents/GameProjects/WasteLand(May16)/MeleeWeaponItemTemplate.h
+	"BaseItemTemplate.h"
+	"Damage.h"
+
+1365616709 source:/home/justin/Documents/GameProjects/WasteLand(May16)/ItemSlot.cpp
+	"ItemSlot.h"
+	"IrrWrapper.h"
+	"ItemManager.h"
+	"BaseItem.h"
+
+1364936492 source:/home/justin/Documents/GameProjects/WasteLand(May16)/main.cpp
+	"IrrWrapper.h"
+	"GameManager.h"
+	"MapChunkInstance.h"
+	"Perameters.h"
+	"ItemManager.h"
+	"InstanceManager.h"
+	<iostream>
+	"MapManager.h"
+
+1365633047 source:/home/justin/Documents/GameProjects/WasteLand(May16)/MapChunkInstance.cpp
+	"MapChunkInstance.h"
+	"InstanceManager.h"
+	"GameManager.h"
+	"ItemInstance.h"
+	"ZombieInstance.h"
+	"BlockManager.h"
+	"SimpleBlock.h"
+	"ProjectileInstance.h"
+	"MessageManager.h"
+	"ItemManager.h"
+	<fstream>
+	<map>
+	<iostream>
+
+1364846976 /home/justin/Documents/GameProjects/WasteLand(May16)/ZombieInstance.h
+	"IrrWrapper.h"
+	"CharacterInstance.h"
+
+1364262724 /home/justin/Documents/GameProjects/WasteLand(May16)/MessageManager.h
+	"IrrWrapper.h"
+	"Telegram.h"
+	"DamageHitMessage.h"
+	<set>
+
+1364262712 /home/justin/Documents/GameProjects/WasteLand(May16)/DamageHitMessage.h
+	"Damage.h"
+	"IrrWrapper.h"
+
+1364846976 source:/home/justin/Documents/GameProjects/WasteLand(May16)/MapManager.cpp
+	"MapManager.h"
+	"GameManager.h"
+	"PathPlanner.h"
+	"SimpleBlock.h"
+	"BlockManager.h"
+	"InstanceManager.h"
+	<iostream>
+
+1364595095 source:/home/justin/Documents/GameProjects/WasteLand(May16)/MeleeWeaponItem.cpp
+	"MeleeWeaponItem.h"
+	"MeleeWeaponItemTemplate.h"
+	"InstanceManager.h"
+	"CharacterInstance.h"
+	"MessageManager.h"
+	<iostream>
+
+1364160674 source:/home/justin/Documents/GameProjects/WasteLand(May16)/MessageManager.cpp
+	"MessageManager.h"
+	"BaseInstance.h"
+	"InstanceManager.h"
+
+1364955983 source:/home/justin/Documents/GameProjects/WasteLand(May16)/MyEventReceiver.cpp
+	"MyEventReceiver.h"
+	"IrrWrapper.h"
+
+1364906667 source:/home/justin/Documents/GameProjects/WasteLand(May16)/PathPlanner.cpp
+	"PathPlanner.h"
+	"GameManager.h"
+	<string>
+	<iostream>
+	"AStarGoalPathToPosition.h"
+	"AStarGoalPathToRandomPosition.h"
+
+1364936211 source:/home/justin/Documents/GameProjects/WasteLand(May16)/ProjectileInstance.cpp
+	"ProjectileInstance.h"
+	"Perameters.h"
+	"GameManager.h"
+	"ZombieInstance.h"
+	"CharacterInstance.h"
+	"InstanceManager.h"
+	"MessageManager.h"
+	"ProjectileInstanceTemplate.h"
+	"Damage.h"
+
+1365542227 source:/home/justin/Documents/GameProjects/WasteLand(May16)/ProjectileWeaponItem.cpp
+	"ProjectileWeaponItem.h"
+	"InstanceManager.h"
+	"CharacterInstanceSoldier.h"
+	"MessageManager.h"
+	"ItemManager.h"
+	"AmmoItem.h"
+	<iostream>
+
+1363391744 source:/home/justin/Documents/GameProjects/WasteLand(May16)/SimpleBlock.cpp
+	"SimpleBlock.h"
+	"MapManager.h"
+	"BaseBlockTemplate.h"
+
+1364109525 source:/home/justin/Documents/GameProjects/WasteLand(May16)/Socket.cpp
+	"Socket.h"
+	"ComplexBlock.h"
+
+1368147686 source:/home/justin/Documents/GameProjects/WasteLand(May16)/SoldierInventoryInterface.cpp
+	"SoldierInventoryInterface.h"
+	"CharacterInstanceSoldier.h"
+	"InstanceManager.h"
+	"ItemList.h"
+	"ItemSlot.h"
+	"ProjectileWeaponItem.h"
+	"ArmourItem.h"
+
+1364264717 source:/home/justin/Documents/GameProjects/WasteLand(May16)/ThrownWeaponItem.cpp
+	"ThrownWeaponItem.h"
+	"ThrownWeaponItemTemplate.h"
+	"InstanceManager.h"
+	"CharacterInstance.h"
+	"MessageManager.h"
+
+1360804104 source:/home/justin/Documents/GameProjects/WasteLand(May16)/ToolItem.cpp
+	"ToolItem.h"
+	"InstanceManager.h"
+	"CharacterInstance.h"
+	"MessageManager.h"
+

@@ -1,0 +1,717 @@
+irrb log 0.6
+
+[general info]
+               OS: Windows Vista 6.0.6002
+  Blender Version: 2.59.0
+      .blend File: C:\Users\Al\Documents\Projects\Unfinished Projects\SimWizard\SimWizard\Items.blend
+      .blend Root: C:\Users\Al\Documents\Projects\Unfinished Projects\SimWizard\SimWizard
+     .irrb Config: C:\Users\Al\.irrb
+   Python Version: 3.2.0 final
+
+[options]
+     Create Scene: True
+   Base Directory: C:\Users\Al\Documents\Projects\Unfinished Projects\SimWizard\SimWizard\
+  Scene Directory: C:\Users\Al\Documents\Projects\Unfinished Projects\SimWizard\SimWizard\
+   Mesh Directory: C:\Users\Al\Documents\Projects\Unfinished Projects\SimWizard\SimWizard\mdl\
+  Image Directory: C:\Users\Al\Documents\Projects\Unfinished Projects\SimWizard\SimWizard\tex\
+           Binary: False
+   Export Cameras: True
+    Export Lights: True
+   Export Physics: False
+      Export Pack: False
+Export Executable: False
+     Run WalkTest: False
+  Image Extension: Original
+    Selected Only: False
+     Irrlicht Ver: 1.7
+    iwalktest Env: None
+     imeshcvt Env: None
+
+[scene info]
+Scene Name: Scene
+Visible Layers: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+Horizon Color: Color((0.05087608844041824, 0.05087608844041824, 0.05087608844041824))
+
+[animation info]
+fpsbase: 1.0000
+    fps: 24
+ sFrame: 1
+ eFrame: 250
+
+[object info]
+Object (0): Name=Cube.016, Type=MESH, Export=True, Visible=True, Layers=[0], NodeAnim=False, Constraints=0
+Object (1): Name=Cube.015, Type=MESH, Export=True, Visible=True, Layers=[0], NodeAnim=False, Constraints=0
+Object (2): Name=Cylinder.005, Type=MESH, Export=True, Visible=True, Layers=[0], NodeAnim=False, Constraints=0
+Object (3): Name=Cube.014, Type=MESH, Export=True, Visible=True, Layers=[0], NodeAnim=False, Constraints=0
+Object (4): Name=Cylinder.004, Type=MESH, Export=True, Visible=True, Layers=[0], NodeAnim=False, Constraints=0
+Object (5): Name=Cube.013, Type=MESH, Export=True, Visible=True, Layers=[0], NodeAnim=False, Constraints=0
+Object (6): Name=Cube.012, Type=MESH, Export=True, Visible=True, Layers=[0], NodeAnim=False, Constraints=0
+Object (7): Name=Plane, Type=MESH, Export=True, Visible=True, Layers=[0], NodeAnim=False, Constraints=0
+Object (8): Name=Cylinder.003, Type=MESH, Export=True, Visible=True, Layers=[0], NodeAnim=False, Constraints=0
+Object (9): Name=Cylinder.002, Type=MESH, Export=True, Visible=True, Layers=[0], NodeAnim=False, Constraints=0
+Object (10): Name=Cube.011, Type=MESH, Export=True, Visible=True, Layers=[0], NodeAnim=False, Constraints=0
+Object (11): Name=Cube.010, Type=MESH, Export=True, Visible=True, Layers=[0], NodeAnim=False, Constraints=0
+Object (12): Name=Cube.009, Type=MESH, Export=True, Visible=True, Layers=[0], NodeAnim=False, Constraints=0
+Object (13): Name=Cylinder.001, Type=MESH, Export=True, Visible=True, Layers=[0], NodeAnim=False, Constraints=0
+Object (14): Name=Cube.008, Type=MESH, Export=True, Visible=True, Layers=[0], NodeAnim=False, Constraints=0
+Object (15): Name=Cube.007, Type=MESH, Export=True, Visible=True, Layers=[0], NodeAnim=False, Constraints=0
+Object (16): Name=Cube.006, Type=MESH, Export=True, Visible=True, Layers=[0], NodeAnim=False, Constraints=0
+Object (17): Name=Cube.005, Type=MESH, Export=True, Visible=True, Layers=[0], NodeAnim=False, Constraints=0
+Object (18): Name=Cylinder, Type=MESH, Export=True, Visible=True, Layers=[0], NodeAnim=False, Constraints=0
+Object (19): Name=Cube.004, Type=MESH, Export=True, Visible=True, Layers=[0], NodeAnim=False, Constraints=0
+Object (20): Name=Cube.003, Type=MESH, Export=True, Visible=True, Layers=[0], NodeAnim=False, Constraints=0
+Object (21): Name=Cube.002, Type=MESH, Export=True, Visible=True, Layers=[0], NodeAnim=False, Constraints=0
+Object (22): Name=Cube.001, Type=MESH, Export=True, Visible=True, Layers=[0], NodeAnim=False, Constraints=0
+Object (23): Name=Cube, Type=MESH, Export=True, Visible=True, Layers=[0], NodeAnim=False, Constraints=0
+Object (24): Name=Axe, Type=MESH, Export=True, Visible=True, Layers=[0], NodeAnim=False, Constraints=0
+Object (25): Name=MetalCutter, Type=MESH, Export=True, Visible=True, Layers=[0], NodeAnim=False, Constraints=0
+Object (26): Name=Hammer, Type=MESH, Export=True, Visible=True, Layers=[0], NodeAnim=False, Constraints=0
+Object (27): Name=Shovel, Type=MESH, Export=True, Visible=True, Layers=[0], NodeAnim=False, Constraints=0
+Object (28): Name=PickAxe, Type=MESH, Export=True, Visible=True, Layers=[0], NodeAnim=False, Constraints=0
+Object (29): Name=Lamp, Type=LAMP, Export=True, Visible=True, Layers=[0], NodeAnim=False, Constraints=0
+Object (30): Name=Camera, Type=CAMERA, Export=True, Visible=True, Layers=[0], NodeAnim=False, Constraints=0
+
+[Mesh - ob:Cube.016, me:Pistol]
+Parent: None
+Rotation Mode: XYZ
+Rotation Euler: Euler((0.0, 0.0, 0.0), 'XYZ')
+Hide: False
+Hide Render: False
+UV Layers (0): 
+Double Sided: True
+Mesh VertexColors: False
+Modifiers: None
+Armatures: None
+physics_type: STATIC
+collision_bounds: BOX
+mass: 1.00
+radius: 1.00
+
+[Buffers]
+Count: 2
+  uvMatName: Brown
+     tslots: 0
+  uvMatName: Grey
+     tslots: 0
+
+[Mesh - ob:Cube.015, me:Anvil]
+Parent: None
+Rotation Mode: XYZ
+Rotation Euler: Euler((0.0, 0.0, 0.0), 'XYZ')
+Hide: False
+Hide Render: False
+UV Layers (0): 
+Double Sided: True
+Mesh VertexColors: False
+Modifiers: None
+Armatures: None
+physics_type: STATIC
+collision_bounds: BOX
+mass: 1.00
+radius: 1.00
+
+[Buffers]
+Count: 1
+  uvMatName: unassigned
+   bmaterial: None
+
+[Mesh - ob:Cylinder.005, me:WaterBottle]
+Parent: None
+Rotation Mode: XYZ
+Rotation Euler: Euler((0.0, 0.0, 0.0), 'XYZ')
+Hide: False
+Hide Render: False
+UV Layers (0): 
+Double Sided: True
+Mesh VertexColors: False
+Modifiers: None
+Armatures: None
+physics_type: STATIC
+collision_bounds: BOX
+mass: 1.00
+radius: 1.00
+
+[Buffers]
+Count: 2
+  uvMatName: Material
+     tslots: 0
+  uvMatName: Grey
+     tslots: 0
+
+[Mesh - ob:Cube.014, me:MedicalKit]
+Parent: None
+Rotation Mode: XYZ
+Rotation Euler: Euler((0.0, 0.0, 0.0), 'XYZ')
+Hide: False
+Hide Render: False
+UV Layers (0): 
+Double Sided: True
+Mesh VertexColors: False
+Modifiers: None
+Armatures: None
+physics_type: STATIC
+collision_bounds: BOX
+mass: 1.00
+radius: 1.00
+
+[Buffers]
+Count: 2
+  uvMatName: Grey
+     tslots: 0
+  uvMatName: Red
+     tslots: 0
+
+[Mesh - ob:Cylinder.004, me:FireHydrant]
+Parent: None
+Rotation Mode: XYZ
+Rotation Euler: Euler((0.0, 0.0, 0.0), 'XYZ')
+Hide: False
+Hide Render: False
+UV Layers (0): 
+Double Sided: True
+Mesh VertexColors: False
+Modifiers: None
+Armatures: None
+physics_type: STATIC
+collision_bounds: BOX
+mass: 1.00
+radius: 1.00
+
+[Buffers]
+Count: 2
+  uvMatName: Grey
+     tslots: 0
+  uvMatName: Red
+     tslots: 0
+
+[Mesh - ob:Cube.013, me:MetalShelf]
+Parent: None
+Rotation Mode: XYZ
+Rotation Euler: Euler((0.0, 0.0, 0.0), 'XYZ')
+Hide: False
+Hide Render: False
+UV Layers (0): 
+Double Sided: True
+Mesh VertexColors: False
+Modifiers: None
+Armatures: None
+physics_type: STATIC
+collision_bounds: BOX
+mass: 1.00
+radius: 1.00
+
+[Buffers]
+Count: 1
+  uvMatName: Grey
+     tslots: 0
+
+[Mesh - ob:Cube.012, me:MetalPole]
+Parent: None
+Rotation Mode: XYZ
+Rotation Euler: Euler((0.0, 0.0, 0.0), 'XYZ')
+Hide: False
+Hide Render: False
+UV Layers (0): 
+Double Sided: True
+Mesh VertexColors: False
+Modifiers: None
+Armatures: None
+physics_type: STATIC
+collision_bounds: BOX
+mass: 1.00
+radius: 1.00
+
+[Buffers]
+Count: 1
+  uvMatName: unassigned
+   bmaterial: None
+
+[Mesh - ob:Plane, me:StopSign]
+Parent: None
+Rotation Mode: XYZ
+Rotation Euler: Euler((0.0, 0.0, 0.0), 'XYZ')
+Hide: False
+Hide Render: False
+UV Layers (0): 
+Double Sided: True
+Mesh VertexColors: False
+Modifiers: None
+Armatures: None
+physics_type: STATIC
+collision_bounds: BOX
+mass: 1.00
+radius: 1.00
+
+[Buffers]
+Count: 2
+  uvMatName: Grey
+     tslots: 0
+  uvMatName: Red
+     tslots: 0
+
+[Mesh - ob:Cylinder.003, me:FoodCan]
+Parent: None
+Rotation Mode: XYZ
+Rotation Euler: Euler((0.0, 0.0, 0.0), 'XYZ')
+Hide: False
+Hide Render: False
+UV Layers (0): 
+Double Sided: True
+Mesh VertexColors: False
+Modifiers: None
+Armatures: None
+physics_type: STATIC
+collision_bounds: BOX
+mass: 1.00
+radius: 1.00
+
+[Buffers]
+Count: 2
+  uvMatName: Grey
+     tslots: 0
+  uvMatName: Red
+     tslots: 0
+
+[Mesh - ob:Cylinder.002, me:BarrelFurnace]
+Parent: None
+Rotation Mode: XYZ
+Rotation Euler: Euler((0.0, 0.0, 0.0), 'XYZ')
+Hide: False
+Hide Render: False
+UV Layers (0): 
+Double Sided: True
+Mesh VertexColors: False
+Modifiers: None
+Armatures: None
+physics_type: STATIC
+collision_bounds: BOX
+mass: 1.00
+radius: 1.00
+
+[Buffers]
+Count: 2
+  uvMatName: Olive
+     tslots: 0
+  uvMatName: Grey
+     tslots: 0
+
+[Mesh - ob:Cube.011, me:LargeWorkBench]
+Parent: None
+Rotation Mode: XYZ
+Rotation Euler: Euler((0.0, 0.0, 0.0), 'XYZ')
+Hide: False
+Hide Render: False
+UV Layers (0): 
+Double Sided: True
+Mesh VertexColors: False
+Modifiers: None
+Armatures: None
+physics_type: STATIC
+collision_bounds: BOX
+mass: 1.00
+radius: 1.00
+
+[Buffers]
+Count: 1
+  uvMatName: Brown
+     tslots: 0
+
+[Mesh - ob:Cube.010, me:Block]
+Parent: None
+Rotation Mode: XYZ
+Rotation Euler: Euler((0.0, 0.0, 0.0), 'XYZ')
+Hide: False
+Hide Render: False
+UV Layers (0): 
+Double Sided: True
+Mesh VertexColors: False
+Modifiers: None
+Armatures: None
+physics_type: STATIC
+collision_bounds: BOX
+mass: 1.00
+radius: 1.00
+
+[Buffers]
+Count: 1
+  uvMatName: unassigned
+   bmaterial: None
+
+[Mesh - ob:Cube.009, me:MetalIngot]
+Parent: None
+Rotation Mode: XYZ
+Rotation Euler: Euler((0.0, 0.0, 0.0), 'XYZ')
+Hide: False
+Hide Render: False
+UV Layers (0): 
+Double Sided: True
+Mesh VertexColors: False
+Modifiers: None
+Armatures: None
+physics_type: STATIC
+collision_bounds: BOX
+mass: 1.00
+radius: 1.00
+
+[Buffers]
+Count: 1
+  uvMatName: Grey
+     tslots: 0
+
+[Mesh - ob:Cylinder.001, me:Barrel]
+Parent: None
+Rotation Mode: XYZ
+Rotation Euler: Euler((0.0, 0.0, 0.0), 'XYZ')
+Hide: False
+Hide Render: False
+UV Layers (0): 
+Double Sided: True
+Mesh VertexColors: False
+Modifiers: None
+Armatures: None
+physics_type: STATIC
+collision_bounds: BOX
+mass: 1.00
+radius: 1.00
+
+[Buffers]
+Count: 1
+  uvMatName: Olive
+     tslots: 0
+
+[Mesh - ob:Cube.008, me:ConcreteDust]
+Parent: None
+Rotation Mode: XYZ
+Rotation Euler: Euler((0.0, 0.0, 0.0), 'XYZ')
+Hide: False
+Hide Render: False
+UV Layers (0): 
+Double Sided: True
+Mesh VertexColors: False
+Modifiers: None
+Armatures: None
+physics_type: STATIC
+collision_bounds: BOX
+mass: 1.00
+radius: 1.00
+
+[Buffers]
+Count: 1
+  uvMatName: Grey
+     tslots: 0
+
+[Mesh - ob:Cube.007, me:MetalFile]
+Parent: None
+Rotation Mode: XYZ
+Rotation Euler: Euler((0.0, 0.0, 0.0), 'XYZ')
+Hide: False
+Hide Render: False
+UV Layers (0): 
+Double Sided: True
+Mesh VertexColors: False
+Modifiers: None
+Armatures: None
+physics_type: STATIC
+collision_bounds: BOX
+mass: 1.00
+radius: 1.00
+
+[Buffers]
+Count: 2
+  uvMatName: Brown
+     tslots: 0
+  uvMatName: Grey
+     tslots: 0
+
+[Mesh - ob:Cube.006, me:Metal Bits]
+Parent: None
+Rotation Mode: XYZ
+Rotation Euler: Euler((0.0, 0.0, 0.0), 'XYZ')
+Hide: False
+Hide Render: False
+UV Layers (0): 
+Double Sided: True
+Mesh VertexColors: False
+Modifiers: None
+Armatures: None
+physics_type: STATIC
+collision_bounds: BOX
+mass: 1.00
+radius: 1.00
+
+[Buffers]
+Count: 1
+  uvMatName: Grey
+     tslots: 0
+
+[Mesh - ob:Cube.005, me:Rubber]
+Parent: None
+Rotation Mode: XYZ
+Rotation Euler: Euler((0.0, 0.0, 0.0), 'XYZ')
+Hide: False
+Hide Render: False
+UV Layers (0): 
+Double Sided: True
+Mesh VertexColors: False
+Modifiers: None
+Armatures: None
+physics_type: STATIC
+collision_bounds: BOX
+mass: 1.00
+radius: 1.00
+
+[Buffers]
+Count: 1
+  uvMatName: Black
+     tslots: 0
+
+[Mesh - ob:Cylinder, me:Tire]
+Parent: None
+Rotation Mode: XYZ
+Rotation Euler: Euler((0.0, 0.0, 0.0), 'XYZ')
+Hide: False
+Hide Render: False
+UV Layers (0): 
+Double Sided: True
+Mesh VertexColors: False
+Modifiers: None
+Armatures: None
+physics_type: STATIC
+collision_bounds: BOX
+mass: 1.00
+radius: 1.00
+
+[Buffers]
+Count: 1
+  uvMatName: Black
+     tslots: 0
+
+[Mesh - ob:Cube.004, me:WorkBench]
+Parent: None
+Rotation Mode: XYZ
+Rotation Euler: Euler((0.0, 0.0, 0.0), 'XYZ')
+Hide: False
+Hide Render: False
+UV Layers (0): 
+Double Sided: True
+Mesh VertexColors: False
+Modifiers: None
+Armatures: None
+physics_type: STATIC
+collision_bounds: BOX
+mass: 1.00
+radius: 1.00
+
+[Buffers]
+Count: 1
+  uvMatName: Brown
+     tslots: 0
+
+[Mesh - ob:Cube.003, me:Stick]
+Parent: None
+Rotation Mode: XYZ
+Rotation Euler: Euler((0.0, 0.0, 0.0), 'XYZ')
+Hide: False
+Hide Render: False
+UV Layers (0): 
+Double Sided: True
+Mesh VertexColors: False
+Modifiers: None
+Armatures: None
+physics_type: STATIC
+collision_bounds: BOX
+mass: 1.00
+radius: 1.00
+
+[Buffers]
+Count: 1
+  uvMatName: Brown
+     tslots: 0
+
+[Mesh - ob:Cube.002, me:Plank]
+Parent: None
+Rotation Mode: XYZ
+Rotation Euler: Euler((0.0, 0.0, 0.0), 'XYZ')
+Hide: False
+Hide Render: False
+UV Layers (0): 
+Double Sided: True
+Mesh VertexColors: False
+Modifiers: None
+Armatures: None
+physics_type: STATIC
+collision_bounds: BOX
+mass: 1.00
+radius: 1.00
+
+[Buffers]
+Count: 1
+  uvMatName: Brown
+     tslots: 0
+
+[Mesh - ob:Cube.001, me:Saw]
+Parent: None
+Rotation Mode: XYZ
+Rotation Euler: Euler((0.0, 0.0, 0.0), 'XYZ')
+Hide: False
+Hide Render: False
+UV Layers (0): 
+Double Sided: True
+Mesh VertexColors: False
+Modifiers: None
+Armatures: None
+physics_type: STATIC
+collision_bounds: BOX
+mass: 1.00
+radius: 1.00
+
+[Buffers]
+Count: 2
+  uvMatName: Brown
+     tslots: 0
+  uvMatName: Grey
+     tslots: 0
+
+[Mesh - ob:Cube, me:Rifle]
+Parent: None
+Rotation Mode: XYZ
+Rotation Euler: Euler((0.0, 0.0, 0.0), 'XYZ')
+Hide: False
+Hide Render: False
+UV Layers (0): 
+Double Sided: True
+Mesh VertexColors: False
+Modifiers: None
+Armatures: None
+physics_type: STATIC
+collision_bounds: BOX
+mass: 1.00
+radius: 1.00
+
+[Buffers]
+Count: 2
+  uvMatName: Brown
+     tslots: 0
+  uvMatName: Grey
+     tslots: 0
+
+[Mesh - ob:Axe, me:Axe]
+Parent: None
+Rotation Mode: XYZ
+Rotation Euler: Euler((0.0, 0.0, 0.0), 'XYZ')
+Hide: False
+Hide Render: False
+UV Layers (0): 
+Double Sided: True
+Mesh VertexColors: False
+Modifiers: None
+Armatures: None
+physics_type: STATIC
+collision_bounds: BOX
+mass: 1.00
+radius: 1.00
+
+[Buffers]
+Count: 2
+  uvMatName: Brown
+     tslots: 0
+  uvMatName: Grey
+     tslots: 0
+
+[Mesh - ob:MetalCutter, me:MetalCutter]
+Parent: None
+Rotation Mode: XYZ
+Rotation Euler: Euler((0.0, 0.0, 0.0), 'XYZ')
+Hide: False
+Hide Render: False
+UV Layers (0): 
+Double Sided: True
+Mesh VertexColors: False
+Modifiers: None
+Armatures: None
+physics_type: STATIC
+collision_bounds: BOX
+mass: 1.00
+radius: 1.00
+
+[Buffers]
+Count: 1
+  uvMatName: Grey
+     tslots: 0
+
+[Mesh - ob:Hammer, me:Hammer]
+Parent: None
+Rotation Mode: XYZ
+Rotation Euler: Euler((0.0, 0.0, 0.0), 'XYZ')
+Hide: False
+Hide Render: False
+UV Layers (0): 
+Double Sided: True
+Mesh VertexColors: False
+Modifiers: None
+Armatures: None
+physics_type: STATIC
+collision_bounds: BOX
+mass: 1.00
+radius: 1.00
+
+[Buffers]
+Count: 2
+  uvMatName: Brown
+     tslots: 0
+  uvMatName: Grey
+     tslots: 0
+
+[Mesh - ob:Shovel, me:Shovel]
+Parent: None
+Rotation Mode: XYZ
+Rotation Euler: Euler((0.0, 0.0, 0.0), 'XYZ')
+Hide: False
+Hide Render: False
+UV Layers (0): 
+Double Sided: True
+Mesh VertexColors: False
+Modifiers: None
+Armatures: None
+physics_type: STATIC
+collision_bounds: BOX
+mass: 1.00
+radius: 1.00
+
+[Buffers]
+Count: 2
+  uvMatName: Brown
+     tslots: 0
+  uvMatName: Grey
+     tslots: 0
+
+[Mesh - ob:PickAxe, me:PickAxe]
+Parent: None
+Rotation Mode: XYZ
+Rotation Euler: Euler((0.0, 0.0, 0.0), 'XYZ')
+Hide: False
+Hide Render: False
+UV Layers (0): 
+Double Sided: True
+Mesh VertexColors: False
+Modifiers: None
+Armatures: None
+physics_type: STATIC
+collision_bounds: BOX
+mass: 1.00
+radius: 1.00
+
+[Buffers]
+Count: 2
+  uvMatName: Brown
+     tslots: 0
+  uvMatName: Grey
+     tslots: 0
+
+[stats]
+Export Complete - 0.45 seconds - 22:09:29 06/19/12
+29 Object(s)
+29 Meshes
+1 Light(s)
+0 Image(s)
+2446/4052 Verts/Tris

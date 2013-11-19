@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\CharacterCommand">
+      <UniqueIdentifier>{f23e1e87-8e39-4ea8-8660-f9f3d0bdf2fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CharacterCommand">
+      <UniqueIdentifier>{3bf9ddde-3482-4473-9067-a64358284535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Instances">
+      <UniqueIdentifier>{7c204939-b579-47ca-86ca-6ad2ab579d6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Instances">
+      <UniqueIdentifier>{eb996684-4c4c-4ea6-aae9-586366ef221e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MapManager">
+      <UniqueIdentifier>{5f810691-66eb-4dbd-b0a4-7aed7b20b08f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MapManager">
+      <UniqueIdentifier>{12db9fa5-ddac-469d-b8a7-52d867250376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ItemManager">
+      <UniqueIdentifier>{21445da7-ba56-44d4-b201-69027cfc9cf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ItemManager">
+      <UniqueIdentifier>{6da48103-70df-46ea-a096-38f35a667213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ItemManager\Templates">
+      <UniqueIdentifier>{65d51dc9-b850-4ddd-bf3c-bce4b2644275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ItemManager\Items">
+      <UniqueIdentifier>{675e5da7-2e64-435d-9605-9bfdc9526fb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ItemManager\Items">
+      <UniqueIdentifier>{985d8b56-3290-42b0-8f8e-5811366a1bb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\InstanceMessaging">
+      <UniqueIdentifier>{67233b1e-089f-4f95-8e66-7dcb066862e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InstanceMessaging">
+      <UniqueIdentifier>{b6556f9f-2277-4e44-91c0-70656cb7e413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\InstanceControllers">
+      <UniqueIdentifier>{2e202cec-98b3-4cec-878b-1a1d6189b4d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InstanceControllers">
+      <UniqueIdentifier>{04df3d6a-856a-40c7-83cf-8f8493a1ecf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Instances\Templates">
+      <UniqueIdentifier>{3853d4f9-0cb5-4d7e-8750-296ef967efa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PathFinding">
+      <UniqueIdentifier>{17426481-8d52-4c8d-8434-2fff012b816e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PathFinding">
+      <UniqueIdentifier>{b16cca76-50b9-451c-859e-b82d015e4679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BlockManager">
+      <UniqueIdentifier>{a9b25932-30db-4fbe-8427-adcb8f0c2f6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BlockManager">
+      <UniqueIdentifier>{055b9b11-471e-45b9-a5db-33f3f4545450}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IrrWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyEventReceiver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Perameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterCommand.h">
+      <Filter>Header Files\CharacterCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="CompoundCharacterCommand.h">
+      <Filter>Header Files\CharacterCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterInstance.h">
+      <Filter>Header Files\Instances</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleInstance.h">
+      <Filter>Header Files\Instances</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileInstance.h">
+      <Filter>Header Files\Instances</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandProcessor.h">
+      <Filter>Header Files\CharacterCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandMoveToPosition.h">
+      <Filter>Header Files\CharacterCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandDestroyBlock.h">
+      <Filter>Header Files\CharacterCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandPathToPosition.h">
+      <Filter>Header Files\CharacterCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandPlaceBlock.h">
+      <Filter>Header Files\CharacterCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandAttackCharacter.h">
+      <Filter>Header Files\CharacterCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>Header Files\MapManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.h">
+      <Filter>Header Files\MapManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkCacheObject.h">
+      <Filter>Header Files\MapManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemSlot.h">
+      <Filter>Header Files\ItemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInstance.h">
+      <Filter>Header Files\Instances</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemInstance.h">
+      <Filter>Header Files\Instances</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>Header Files\ItemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ArmourItemTemplate.h">
+      <Filter>Header Files\ItemManager\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseItemTemplate.h">
+      <Filter>Header Files\ItemManager\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockItemTemplate.h">
+      <Filter>Header Files\ItemManager\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsumableItemTemplate.h">
+      <Filter>Header Files\ItemManager\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileWeaponItemTemplate.h">
+      <Filter>Header Files\ItemManager\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolItemTemplate.h">
+      <Filter>Header Files\ItemManager\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseItem.h">
+      <Filter>Header Files\ItemManager\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="ArmourItem.h">
+      <Filter>Header Files\ItemManager\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockItem.h">
+      <Filter>Header Files\ItemManager\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsumableItem.h">
+      <Filter>Header Files\ItemManager\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileWeaponItem.h">
+      <Filter>Header Files\ItemManager\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolItem.h">
+      <Filter>Header Files\ItemManager\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="InstanceManager.h">
+      <Filter>Header Files\Instances</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInventoryInterface.h">
+      <Filter>Header Files\InstanceControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\InstanceControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemList.h">
+      <Filter>Header Files\ItemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseInstance.h">
+      <Filter>Header Files\Instances</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageManager.h">
+      <Filter>Header Files\InstanceMessaging</Filter>
+    </ClInclude>
+    <ClInclude Include="Telegram.h">
+      <Filter>Header Files\InstanceMessaging</Filter>
+    </ClInclude>
+    <ClInclude Include="Damage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapChunkInstance.h">
+      <Filter>Header Files\MapManager</Filter>
+    </ClInclude>
+    <ClInclude Include="NonPlayerCharacterInstance.h">
+      <Filter>Header Files\Instances</Filter>
+    </ClInclude>
+    <ClInclude Include="ZombieBrain.h">
+      <Filter>Header Files\CharacterCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandPathToCharacter.h">
+      <Filter>Header Files\CharacterCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileInstanceTemplate.h">
+      <Filter>Header Files\Instances\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterInstanceTemplate.h">
+      <Filter>Header Files\Instances\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimalBrain.h">
+      <Filter>Header Files\CharacterCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="PathPlanner.h">
+      <Filter>Header Files\PathFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="AStarGoalBase.h">
+      <Filter>Header Files\PathFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="AStarGoalPathToPosition.h">
+      <Filter>Header Files\PathFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="AStarGoalPathToRandomPosition.h">
+      <Filter>Header Files\PathFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandMoveToRandomPosition.h">
+      <Filter>Header Files\CharacterCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandIdle.h">
+      <Filter>Header Files\CharacterCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandWander.h">
+      <Filter>Header Files\CharacterCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleBlock.h">
+      <Filter>Header Files\BlockManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ComplexBlockTemplate.h">
+      <Filter>Header Files\BlockManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ComplexBlock.h">
+      <Filter>Header Files\BlockManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseBlock.h">
+      <Filter>Header Files\BlockManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseBlockTemplate.h">
+      <Filter>Header Files\BlockManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockManager.h">
+      <Filter>Header Files\BlockManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IrrWrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyEventReceiver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterCommand.cpp">
+      <Filter>Source Files\CharacterCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="CompoundCharacterCommand.cpp">
+      <Filter>Source Files\CharacterCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterInstance.cpp">
+      <Filter>Source Files\Instances</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleInstance.cpp">
+      <Filter>Source Files\Instances</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileInstance.cpp">
+      <Filter>Source Files\Instances</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandProcessor.cpp">
+      <Filter>Source Files\CharacterCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandMoveToPosition.cpp">
+      <Filter>Source Files\CharacterCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandDestroyBlock.cpp">
+      <Filter>Source Files\CharacterCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandPathToPosition.cpp">
+      <Filter>Source Files\CharacterCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandPlaceBlock.cpp">
+      <Filter>Source Files\CharacterCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandAttackCharacter.cpp">
+      <Filter>Source Files\CharacterCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>Source Files\MapManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket.cpp">
+      <Filter>Source Files\MapManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ChunkCacheObject.cpp">
+      <Filter>Source Files\MapManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemSlot.cpp">
+      <Filter>Source Files\ItemManager</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInstance.cpp">
+      <Filter>Source Files\Instances</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemInstance.cpp">
+      <Filter>Source Files\Instances</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>Source Files\ItemManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseItem.cpp">
+      <Filter>Source Files\ItemManager\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolItem.cpp">
+      <Filter>Source Files\ItemManager\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileWeaponItem.cpp">
+      <Filter>Source Files\ItemManager\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsumableItem.cpp">
+      <Filter>Source Files\ItemManager\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockItem.cpp">
+      <Filter>Source Files\ItemManager\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="ArmourItem.cpp">
+      <Filter>Source Files\ItemManager\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="InstanceManager.cpp">
+      <Filter>Source Files\Instances</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInventoryInterface.cpp">
+      <Filter>Source Files\InstanceControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files\InstanceControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemList.cpp">
+      <Filter>Source Files\ItemManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseInstance.cpp">
+      <Filter>Source Files\Instances</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageManager.cpp">
+      <Filter>Source Files\InstanceMessaging</Filter>
+    </ClCompile>
+    <ClCompile Include="MapChunkInstance.cpp">
+      <Filter>Source Files\MapManager</Filter>
+    </ClCompile>
+    <ClCompile Include="NonPlayerCharacterInstance.cpp">
+      <Filter>Source Files\Instances</Filter>
+    </ClCompile>
+    <ClCompile Include="ZombieBrain.cpp">
+      <Filter>Source Files\CharacterCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandPathToCharacter.cpp">
+      <Filter>Source Files\CharacterCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimalBrain.cpp">
+      <Filter>Source Files\CharacterCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="PathPlanner.cpp">
+      <Filter>Source Files\PathFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="AStarGoalPathToPosition.cpp">
+      <Filter>Source Files\PathFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="AStarPathToRandomPosition.cpp">
+      <Filter>Source Files\PathFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandMoveToRandomPosition.cpp">
+      <Filter>Source Files\CharacterCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandIdle.cpp">
+      <Filter>Source Files\CharacterCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandWander.cpp">
+      <Filter>Source Files\CharacterCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleBlock.cpp">
+      <Filter>Source Files\BlockManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ComplexBlock.cpp">
+      <Filter>Source Files\BlockManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockManager.cpp">
+      <Filter>Source Files\BlockManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseBlock.cpp">
+      <Filter>Source Files\BlockManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

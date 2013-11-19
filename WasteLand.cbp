@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="WasteLand" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Command/;Instance/;Item/;Pathfinding/;Block/;Interface/;Map/;Messaging/;Faction/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/WasteLand" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="usr/local/bin" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/WasteLand" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="usr/local/bin/" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="/usr/local/include" />
+		</Compiler>
+		<Linker>
+			<Add library="Irrlicht" />
+			<Add library="GL" />
+			<Add library="GLU" />
+			<Add library="Xxf86vm" />
+			<Add directory="/usr/local/lib/" />
+		</Linker>
+		<Unit filename="AStarGoalBase.h">
+			<Option virtualFolder="Pathfinding/" />
+		</Unit>
+		<Unit filename="AStarGoalPathToCloserCover.h">
+			<Option virtualFolder="Pathfinding/" />
+		</Unit>
+		<Unit filename="AStarGoalPathToCover.h">
+			<Option virtualFolder="Pathfinding/" />
+		</Unit>
+		<Unit filename="AStarGoalPathToFartherCover.h">
+			<Option virtualFolder="Pathfinding/" />
+		</Unit>
+		<Unit filename="AStarGoalPathToPosition.cpp">
+			<Option virtualFolder="Pathfinding/" />
+		</Unit>
+		<Unit filename="AStarGoalPathToPosition.h">
+			<Option virtualFolder="Pathfinding/" />
+		</Unit>
+		<Unit filename="AStarGoalPathToRandomPosition.h">
+			<Option virtualFolder="Pathfinding/" />
+		</Unit>
+		<Unit filename="AStarPathToRandomPosition.cpp">
+			<Option virtualFolder="Pathfinding/" />
+		</Unit>
+		<Unit filename="AmmoItem.cpp">
+			<Option virtualFolder="Item/" />
+		</Unit>
+		<Unit filename="AmmoItem.h">
+			<Option virtualFolder="Item/" />
+		</Unit>
+		<Unit filename="AmmoItemTemplate.h">
+			<Option virtualFolder="Item/" />
+		</Unit>
+		<Unit filename="AnimalBrain.cpp">
+			<Option virtualFolder="Command/" />
+		</Unit>
+		<Unit filename="AnimalBrain.h">
+			<Option virtualFolder="Command/" />
+		</Unit>
+		<Unit filename="ArmourItem.cpp">
+			<Option virtualFolder="Item/" />
+		</Unit>
+		<Unit filename="ArmourItem.h">
+			<Option virtualFolder="Item/" />
+		</Unit>
+		<Unit filename="ArmourItemTemplate.h">
+			<Option virtualFolder="Item/" />
+		</Unit>
+		<Unit filename="BaseBlock.cpp">
+			<Option virtualFolder="Block/" />
+		</Unit>
+		<Unit filename="BaseBlock.h">
+			<Option virtualFolder="Block/" />
+		</Unit>
+		<Unit filename="BaseBlockTemplate.h">
+			<Option virtualFolder="Block/" />
+		</Unit>
+		<Unit filename="BaseInstance.cpp">
+			<Option virtualFolder="Instance/" />
+		</Unit>
+		<Unit filename="BaseInstance.h">
+			<Option virtualFolder="Instance/" />
+		</Unit>
+		<Unit filename="BaseItem.cpp">
+			<Option virtualFolder="Item/" />
+		</Unit>
+		<Unit filename="BaseItem.h">
+			<Option virtualFolder="Item/" />
+		</Unit>
+		<Unit filename="BaseItemTemplate.h">
+			<Option virtualFolder="Item/" />
+		</Unit>
+		<Unit filename="BlockItem.cpp">
+			<Option virtualFolder="Item/" />
+		</Unit>
+		<Unit filename="BlockItem.h">
+			<Option virtualFolder="Item/" />
+		</Unit>
+		<Unit filename="BlockItemTemplate.h">
+			<Option virtualFolder="Item/" />
+		</Unit>
+		<Unit filename="BlockManager.cpp">
+			<Option virtualFolder="Block/" />
+		</Unit>
+		<Unit filename="BlockManager.h">
+			<Option virtualFolder="Block/" />
+		</Unit>
+		<Unit filename="BrainNonFactionHostile.cpp">
+			<Option virtualFolder="Command/" />
+		</Unit>
+		<Unit filename="BrainNonFactionHostile.h">
+			<Option virtualFolder="Command/" />
+		</Unit>
+		<Unit filename="BrainSoldier.cpp">
+			<Option virtualFolder="Command/" />
+		</Unit>
+		<Unit filename="BrainSoldier.h">
+			<Option virtualFolder="Command/" />
+		</Unit>
+		<Unit filename="BrainWorker.cpp">
+			<Option virtualFolder="Command/" />
+		</Unit>
+		<Unit filename="BrainWorker.h">
+			<Option virtualFolder="Command/" />
+		</Unit>
+		<Unit filename="Button.cpp">
+			<Option virtualFolder="Interface/" />
+		</Unit>
+		<Unit filename="Button.h">
+			<Option virtualFolder="Interface/" />
+		</Unit>
+		<Unit filename="CharacterCommand.cpp">
+			<Option virtualFolder="Command/" />
+		</Unit>
+		<Unit filename="CharacterCommand.h">
+			<Option virtualFolder="Command/" />
+		</Unit>
+		<Unit filename="CharacterInstance.cpp">
+			<Option virtualFolder="Instance/" />
+		</Unit>
+		<Unit filename="CharacterInstance.h">
+			<Option virtualFolder="Instance/" />
+		</Unit>
+		<Unit filename="CharacterInstanceSoldier.cpp">
+			<Option virtualFolder="Instance/" />
+		</Unit>
+		<Unit filename="CharacterInstanceSoldier.h">
+			<Option virtualFolder="Instance/" />
+		</Unit>
+		<Unit filename="CharacterInstanceTemplate.h">
+			<Option virtualFolder="Instance/" />
+		</Unit>
+		<Unit filename="CharacterInstanceWorker.cpp">
+			<Option virtualFolder="Instance/" />
+		</Unit>
+		<Unit filename="CharacterInstanceWorker.h">
+			<Option virtualFolder="Instance/" />
+		</Unit>
+		<Unit filename="ChunkCacheObject.cpp">
+			<Option virtualFolder="Map/" />
+		</Unit>
+		<Unit filename="ChunkCacheObject.h">
+			<Option virtualFolder="Map/" />
+		</Unit>
+		<Unit filename="CommandAttackCharacter.cpp">
+			<Option virtualFolder="Command/" />
+		</Unit>
+		<Unit filename="CommandAttackCharacter.h">
+			<Option virtualFolder="Command/" />
+		</Unit>
+		<Unit filename="CommandHarvestBlock.cpp">
+			<Option virtualFolder="Command/" />
+		</Unit>
+		<Unit filename="CommandHarvestBlock.h">
+			<Option virtualFolder="Command/" />
+		</Unit>
+		<Unit filename="CommandIdle.cpp">
+			<Option virtualFolder="Command/" />
+		</Unit>
+		<Unit filename="CommandIdle.h">
+			<Option virtualFolder="Command/" />
+		</Unit>
+		<Unit filename="CommandMoveToPosition.cpp">
+			<Option virtualFolder="Command/" />
+		</Unit>
+		<Unit filename="CommandMoveToPosition.h">
+			<Option virtualFolder="Command/" />
+		</Unit>
+		<Unit filename="CommandMoveToRandomPosition.cpp">
+			<Option virtualFolder="Command/" />
+		</Unit>
+		<Unit filename="CommandMoveToRandomPosition.h">
+			<Option virtualFolder="Command/" />
+		</Unit>
+		<Unit filename="CommandPathToCharacter.cpp">
+			<Option virtualFolder="Command/" />
+		</Unit>
+		<Unit filename="CommandPathToCharacter.h">
+			<Option virtualFolder="Command/" />
+		</Unit>
+		<Unit filename="CommandPathToPosition.cpp">
+			<Option virtualFolder="Command/" />
+		</Unit>
+		<Unit filename="CommandPathToPosition.h">
+			<Option virtualFolder="Command/" />
+		</Unit>
+		<Unit filename="CommandPickUpItem.cpp">
+			<Option virtualFolder="Command/" />
+		</Unit>
+		<Unit filename="CommandPickUpItem.h">
+			<Option virtualFolder="Command/" />
+		</Unit>
+		<Unit filename="CommandWander.cpp">
+			<Option virtualFolder="Command/" />
+		</Unit>
+		<Unit filename="CommandWander.h">
+			<Option virtualFolder="Command/" />
+		</Unit>
+		<Unit filename="ComplexBlock.cpp">
+			<Option virtualFolder="Block/" />
+		</Unit>
+		<Unit filename="ComplexBlock.h">
+			<Option virtualFolder="Block/" />
+		</Unit>
+		<Unit filename="ComplexBlockTemplate.h">
+			<Option virtualFolder="Block/" />
+		</Unit>
+		<Unit filename="CompoundCharacterCommand.cpp">
+			<Option virtualFolder="Command/" />
+		</Unit>
+		<Unit filename="CompoundCharacterCommand.h">
+			<Option virtualFolder="Command/" />
+		</Unit>
+		<Unit filename="ConsumableItem.cpp">
+			<Option virtualFolder="Item/" />
+		</Unit>
+		<Unit filename="ConsumableItem.h">
+			<Option virtualFolder="Item/" />
+		</Unit>
+		<Unit filename="ConsumableItemTemplate.h">
+			<Option virtualFolder="Item/" />
+		</Unit>
+		<Unit filename="Damage.h">
+			<Option virtualFolder="Messaging/" />
+		</Unit>
+		<Unit filename="DamageHitMessage.h">
+			<Option virtualFolder="Messaging/" />
+		</Unit>
+		<Unit filename="Faction.cpp">
+			<Option virtualFolder="Faction/" />
+		</Unit>
+		<Unit filename="Faction.h">
+			<Option virtualFolder="Faction/" />
+		</Unit>
+		<Unit filename="FactionManager.cpp">
+			<Option virtualFolder="Faction/" />
+		</Unit>
+		<Unit filename="FactionManager.h">
+			<Option virtualFolder="Faction/" />
+		</Unit>
+		<Unit filename="FactionPlayer.cpp">
+			<Option virtualFolder="Faction/" />
+		</Unit>
+		<Unit filename="FactionPlayer.h">
+			<Option virtualFolder="Faction/" />
+		</Unit>
+		<Unit filename="GameManager.cpp" />
+		<Unit filename="GameManager.h" />
+		<Unit filename="InstanceManager.cpp">
+			<Option virtualFolder="Instance/" />
+		</Unit>
+		<Unit filename="InstanceManager.h">
+			<Option virtualFolder="Instance/" />
+		</Unit>
+		<Unit filename="IrrWrapper.cpp" />
+		<Unit filename="IrrWrapper.h" />
+		<Unit filename="ItemInstance.cpp">
+			<Option virtualFolder="Instance/" />
+		</Unit>
+		<Unit filename="ItemInstance.h">
+			<Option virtualFolder="Instance/" />
+		</Unit>
+		<Unit filename="ItemList.cpp">
+			<Option virtualFolder="Interface/" />
+		</Unit>
+		<Unit filename="ItemList.h">
+			<Option virtualFolder="Interface/" />
+		</Unit>
+		<Unit filename="ItemManager.cpp">
+			<Option virtualFolder="Item/" />
+		</Unit>
+		<Unit filename="ItemManager.h">
+			<Option virtualFolder="Item/" />
+		</Unit>
+		<Unit filename="ItemSlot.cpp">
+			<Option virtualFolder="Interface/" />
+		</Unit>
+		<Unit filename="ItemSlot.h">
+			<Option virtualFolder="Interface/" />
+		</Unit>
+		<Unit filename="MapChunkInstance.cpp">
+			<Option virtualFolder="Instance/" />
+		</Unit>
+		<Unit filename="MapChunkInstance.h">
+			<Option virtualFolder="Instance/" />
+		</Unit>
+		<Unit filename="MapManager.cpp">
+			<Option virtualFolder="Map/" />
+		</Unit>
+		<Unit filename="MapManager.h">
+			<Option virtualFolder="Map/" />
+		</Unit>
+		<Unit filename="MeleeWeaponItem.cpp">
+			<Option virtualFolder="Item/" />
+		</Unit>
+		<Unit filename="MeleeWeaponItem.h">
+			<Option virtualFolder="Item/" />
+		</Unit>
+		<Unit filename="MeleeWeaponItemTemplate.h">
+			<Option virtualFolder="Item/" />
+		</Unit>
+		<Unit filename="MessageManager.cpp">
+			<Option virtualFolder="Messaging/" />
+		</Unit>
+		<Unit filename="MessageManager.h">
+			<Option virtualFolder="Messaging/" />
+		</Unit>
+		<Unit filename="MyEventReceiver.cpp" />
+		<Unit filename="MyEventReceiver.h" />
+		<Unit filename="PathPlanner.cpp">
+			<Option virtualFolder="Pathfinding/" />
+		</Unit>
+		<Unit filename="PathPlanner.h">
+			<Option virtualFolder="Pathfinding/" />
+		</Unit>
+		<Unit filename="Perameters.h" />
+		<Unit filename="ProjectileInstance.cpp">
+			<Option virtualFolder="Instance/" />
+		</Unit>
+		<Unit filename="ProjectileInstance.h">
+			<Option virtualFolder="Instance/" />
+		</Unit>
+		<Unit filename="ProjectileInstanceTemplate.h">
+			<Option virtualFolder="Instance/" />
+		</Unit>
+		<Unit filename="ProjectileWeaponItem.cpp">
+			<Option virtualFolder="Item/" />
+		</Unit>
+		<Unit filename="ProjectileWeaponItem.h">
+			<Option virtualFolder="Item/" />
+		</Unit>
+		<Unit filename="ProjectileWeaponItemTemplate.h">
+			<Option virtualFolder="Item/" />
+		</Unit>
+		<Unit filename="SimpleBlock.cpp">
+			<Option virtualFolder="Block/" />
+		</Unit>
+		<Unit filename="SimpleBlock.h">
+			<Option virtualFolder="Block/" />
+		</Unit>
+		<Unit filename="Socket.cpp">
+			<Option virtualFolder="Block/" />
+		</Unit>
+		<Unit filename="Socket.h">
+			<Option virtualFolder="Block/" />
+		</Unit>
+		<Unit filename="SoldierInventoryInterface.cpp">
+			<Option virtualFolder="Interface/" />
+		</Unit>
+		<Unit filename="SoldierInventoryInterface.h">
+			<Option virtualFolder="Interface/" />
+		</Unit>
+		<Unit filename="Telegram.h">
+			<Option virtualFolder="Messaging/" />
+		</Unit>
+		<Unit filename="ThrownWeaponItem.cpp">
+			<Option virtualFolder="Item/" />
+		</Unit>
+		<Unit filename="ThrownWeaponItem.h">
+			<Option virtualFolder="Item/" />
+		</Unit>
+		<Unit filename="ThrownWeaponItemTemplate.h">
+			<Option virtualFolder="Item/" />
+		</Unit>
+		<Unit filename="ToolItem.cpp">
+			<Option virtualFolder="Item/" />
+		</Unit>
+		<Unit filename="ToolItem.h">
+			<Option virtualFolder="Item/" />
+		</Unit>
+		<Unit filename="ToolItemTemplate.h">
+			<Option virtualFolder="Item/" />
+		</Unit>
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,107 @@
+﻿Build started 3/22/2013 3:04:33 PM.
+     1>Project "C:\Users\Dima\Documents\Projects\SimWizard\SimWizard\SimWizard.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\SimWizard.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AnimalBrain.cpp BlockManager.cpp CharacterInstance.cpp CommandAttackCharacter.cpp CommandDestroyBlock.cpp CommandIdle.cpp CommandMoveToPosition.cpp CommandMoveToRandomPosition.cpp CommandPathToCharacter.cpp CommandPathToPosition.cpp CommandPlaceBlock.cpp CommandProcessor.cpp CommandWander.cpp GameManager.cpp InstanceManager.cpp ItemInstance.cpp ItemSlot.cpp MapChunkInstance.cpp MapManager.cpp NonPlayerCharacterInstance.cpp PathPlanner.cpp PlayerInstance.cpp PlayerInventoryInterface.cpp ProjectileInstance.cpp ProjectileWeaponItem.cpp ToolItem.cpp ZombieBrain.cpp main.cpp
+         BlockManager.cpp
+     1>c:\users\dima\documents\projects\simwizard\simwizard\blockmanager.cpp(38): warning C4305: 'argument' : truncation from 'double' to 'irr::f32'
+     1>c:\users\dima\documents\projects\simwizard\simwizard\blockmanager.cpp(50): warning C4305: 'argument' : truncation from 'double' to 'irr::f32'
+     1>c:\users\dima\documents\projects\simwizard\simwizard\blockmanager.cpp(56): warning C4305: 'argument' : truncation from 'double' to 'irr::f32'
+     1>c:\users\dima\documents\projects\simwizard\simwizard\blockmanager.cpp(62): warning C4305: 'argument' : truncation from 'double' to 'irr::f32'
+     1>c:\users\dima\documents\projects\simwizard\simwizard\blockmanager.cpp(68): warning C4305: 'argument' : truncation from 'double' to 'irr::f32'
+     1>c:\users\dima\documents\projects\simwizard\simwizard\blockmanager.cpp(80): warning C4305: 'argument' : truncation from 'double' to 'irr::f32'
+         Generating Code...
+         Compiling...
+         AnimalBrain.cpp
+     1>c:\users\dima\documents\projects\simwizard\simwizard\animalbrain.cpp(6): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         ItemSlot.cpp
+         main.cpp
+         ZombieBrain.cpp
+         ToolItem.cpp
+         ProjectileWeaponItem.cpp
+         ProjectileInstance.cpp
+         PlayerInventoryInterface.cpp
+         PlayerInstance.cpp
+         PathPlanner.cpp
+         NonPlayerCharacterInstance.cpp
+         MapManager.cpp
+         MapChunkInstance.cpp
+         ItemInstance.cpp
+         InstanceManager.cpp
+         GameManager.cpp
+         CommandWander.cpp
+         CommandProcessor.cpp
+         CommandPlaceBlock.cpp
+         CommandPathToPosition.cpp
+         CommandPathToCharacter.cpp
+         CommandMoveToRandomPosition.cpp
+         CommandMoveToPosition.cpp
+         CommandIdle.cpp
+         CommandDestroyBlock.cpp
+         CommandAttackCharacter.cpp
+         CharacterInstance.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Dima\Documents\Projects\SimWizard\Debug\SimWizard.exe" /NOLOGO Irrlicht.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\SimWizard.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Dima\Documents\Projects\SimWizard\Debug\SimWizard.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Dima\Documents\Projects\SimWizard\Debug\SimWizard.lib" /MACHINE:X86 Debug\AnimalBrain.obj
+         Debug\ArmourItem.obj
+         Debug\AStarGoalPathToPosition.obj
+         Debug\AStarPathToRandomPosition.obj
+         Debug\BaseBlock.obj
+         Debug\BaseInstance.obj
+         Debug\BaseItem.obj
+         Debug\BlockItem.obj
+         Debug\BlockManager.obj
+         Debug\Button.obj
+         Debug\CharacterCommand.obj
+         Debug\CharacterInstance.obj
+         Debug\ChunkCacheObject.obj
+         Debug\CommandAttackCharacter.obj
+         Debug\CommandDestroyBlock.obj
+         Debug\CommandIdle.obj
+         Debug\CommandPathToCharacter.obj
+         Debug\CommandPathToPosition.obj
+         Debug\CommandPlaceBlock.obj
+         Debug\CommandProcessor.obj
+         Debug\CommandMoveToRandomPosition.obj
+         Debug\CommandWander.obj
+         Debug\ComplexBlock.obj
+         Debug\CompoundCharacterCommand.obj
+         Debug\ConsumableItem.obj
+         Debug\GameManager.obj
+         Debug\InstanceManager.obj
+         Debug\ItemList.obj
+         Debug\IrrWrapper.obj
+         Debug\ItemInstance.obj
+         Debug\ItemManager.obj
+         Debug\ItemSlot.obj
+         Debug\main.obj
+         Debug\CommandMoveToPosition.obj
+         Debug\MapManager.obj
+         Debug\MessageManager.obj
+         Debug\MyEventReceiver.obj
+         Debug\NonPlayerCharacterInstance.obj
+         Debug\ParticleInstance.obj
+         Debug\PathPlanner.obj
+         Debug\PlayerInstance.obj
+         Debug\PlayerInventoryInterface.obj
+         Debug\ProjectileInstance.obj
+         Debug\MapChunkInstance.obj
+         Debug\ProjectileWeaponItem.obj
+         Debug\SimpleBlock.obj
+         Debug\Socket.obj
+         Debug\ToolItem.obj
+         Debug\ZombieBrain.obj
+         LINK : C:\Users\Dima\Documents\Projects\SimWizard\Debug\SimWizard.exe not found or not built by the last incremental link; performing full link
+         SimWizard.vcxproj -> C:\Users\Dima\Documents\Projects\SimWizard\Debug\SimWizard.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Dima\Documents\Projects\SimWizard\Debug\SimWizard.exe;#1" /manifest Debug\SimWizard.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\SimWizard.unsuccessfulbuild".
+         Touching "Debug\SimWizard.lastbuildstate".
+     1>Done Building Project "C:\Users\Dima\Documents\Projects\SimWizard\SimWizard\SimWizard.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.17

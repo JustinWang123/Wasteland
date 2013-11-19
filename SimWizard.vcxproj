@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{948809B3-2EDA-4529-8504-F5C0EF9741F3}</ProjectGuid>
+    <RootNamespace>SimWizard</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Users\Dima\Documents\Lib\irrlicht-1.7.3\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>C:\Users\Dima\Documents\Lib\irrlicht-1.7.3\lib\Win32-visualstudio;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Irrlicht.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimalBrain.h" />
+    <ClInclude Include="ArmourItem.h" />
+    <ClInclude Include="ArmourItemTemplate.h" />
+    <ClInclude Include="AStarGoalBase.h" />
+    <ClInclude Include="AStarGoalPathToPosition.h" />
+    <ClInclude Include="AStarGoalPathToRandomPosition.h" />
+    <ClInclude Include="BaseBlock.h" />
+    <ClInclude Include="BaseBlockTemplate.h" />
+    <ClInclude Include="BaseInstance.h" />
+    <ClInclude Include="BaseItem.h" />
+    <ClInclude Include="BaseItemTemplate.h" />
+    <ClInclude Include="BlockItem.h" />
+    <ClInclude Include="BlockItemTemplate.h" />
+    <ClInclude Include="BlockManager.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="CharacterCommand.h" />
+    <ClInclude Include="CharacterInstance.h" />
+    <ClInclude Include="ChunkCacheObject.h" />
+    <ClInclude Include="CommandAttackCharacter.h" />
+    <ClInclude Include="CommandDestroyBlock.h" />
+    <ClInclude Include="CommandIdle.h" />
+    <ClInclude Include="CommandPathToCharacter.h" />
+    <ClInclude Include="CommandPathToPosition.h" />
+    <ClInclude Include="CommandPlaceBlock.h" />
+    <ClInclude Include="CommandProcessor.h" />
+    <ClInclude Include="CommandMoveToRandomPosition.h" />
+    <ClInclude Include="CommandWander.h" />
+    <ClInclude Include="ComplexBlock.h" />
+    <ClInclude Include="ComplexBlockTemplate.h" />
+    <ClInclude Include="CompoundCharacterCommand.h" />
+    <ClInclude Include="ConsumableItem.h" />
+    <ClInclude Include="ConsumableItemTemplate.h" />
+    <ClInclude Include="Damage.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="InstanceManager.h" />
+    <ClInclude Include="IrrWrapper.h" />
+    <ClInclude Include="ItemList.h" />
+    <ClInclude Include="ItemInstance.h" />
+    <ClInclude Include="ItemManager.h" />
+    <ClInclude Include="ItemSlot.h" />
+    <ClInclude Include="CommandMoveToPosition.h" />
+    <ClInclude Include="MapManager.h" />
+    <ClInclude Include="MessageManager.h" />
+    <ClInclude Include="MyEventReceiver.h" />
+    <ClInclude Include="NonPlayerCharacterInstance.h" />
+    <ClInclude Include="CharacterInstanceTemplate.h" />
+    <ClInclude Include="ParticleInstance.h" />
+    <ClInclude Include="PathPlanner.h" />
+    <ClInclude Include="Perameters.h" />
+    <ClInclude Include="PlayerInstance.h" />
+    <ClInclude Include="PlayerInventoryInterface.h" />
+    <ClInclude Include="ProjectileInstance.h" />
+    <ClInclude Include="ProjectileInstanceTemplate.h" />
+    <ClInclude Include="ProjectileWeaponItem.h" />
+    <ClInclude Include="ProjectileWeaponItemTemplate.h" />
+    <ClInclude Include="SimpleBlock.h" />
+    <ClInclude Include="Socket.h" />
+    <ClInclude Include="Telegram.h" />
+    <ClInclude Include="MapChunkInstance.h" />
+    <ClInclude Include="ToolItem.h" />
+    <ClInclude Include="ToolItemTemplate.h" />
+    <ClInclude Include="ZombieBrain.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimalBrain.cpp" />
+    <ClCompile Include="ArmourItem.cpp" />
+    <ClCompile Include="AStarGoalPathToPosition.cpp" />
+    <ClCompile Include="AStarPathToRandomPosition.cpp" />
+    <ClCompile Include="BaseBlock.cpp" />
+    <ClCompile Include="BaseInstance.cpp" />
+    <ClCompile Include="BaseItem.cpp" />
+    <ClCompile Include="BlockItem.cpp" />
+    <ClCompile Include="BlockManager.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="CharacterCommand.cpp" />
+    <ClCompile Include="CharacterInstance.cpp" />
+    <ClCompile Include="ChunkCacheObject.cpp" />
+    <ClCompile Include="CommandAttackCharacter.cpp" />
+    <ClCompile Include="CommandDestroyBlock.cpp" />
+    <ClCompile Include="CommandIdle.cpp" />
+    <ClCompile Include="CommandPathToCharacter.cpp" />
+    <ClCompile Include="CommandPathToPosition.cpp" />
+    <ClCompile Include="CommandPlaceBlock.cpp" />
+    <ClCompile Include="CommandProcessor.cpp" />
+    <ClCompile Include="CommandMoveToRandomPosition.cpp" />
+    <ClCompile Include="CommandWander.cpp" />
+    <ClCompile Include="ComplexBlock.cpp" />
+    <ClCompile Include="CompoundCharacterCommand.cpp" />
+    <ClCompile Include="ConsumableItem.cpp" />
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="InstanceManager.cpp" />
+    <ClCompile Include="ItemList.cpp" />
+    <ClCompile Include="IrrWrapper.cpp" />
+    <ClCompile Include="ItemInstance.cpp" />
+    <ClCompile Include="ItemManager.cpp" />
+    <ClCompile Include="ItemSlot.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="CommandMoveToPosition.cpp" />
+    <ClCompile Include="MapManager.cpp" />
+    <ClCompile Include="MessageManager.cpp" />
+    <ClCompile Include="MyEventReceiver.cpp" />
+    <ClCompile Include="NonPlayerCharacterInstance.cpp" />
+    <ClCompile Include="ParticleInstance.cpp" />
+    <ClCompile Include="PathPlanner.cpp" />
+    <ClCompile Include="PlayerInstance.cpp" />
+    <ClCompile Include="PlayerInventoryInterface.cpp" />
+    <ClCompile Include="ProjectileInstance.cpp" />
+    <ClCompile Include="MapChunkInstance.cpp" />
+    <ClCompile Include="ProjectileWeaponItem.cpp" />
+    <ClCompile Include="SimpleBlock.cpp" />
+    <ClCompile Include="Socket.cpp" />
+    <ClCompile Include="ToolItem.cpp" />
+    <ClCompile Include="ZombieBrain.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
